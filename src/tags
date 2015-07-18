@@ -1,0 +1,1156 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GRIT_THE_BLOCKS_H	gfx/the_blocks.h	18;"	kind:d
+GRIT_THE_SPRITES_H	gfx/the_sprites.h	18;"	kind:d
+__key_state	gba_specific_stuff/button_stuff.thumb.cpp	/^volatile prev_curr_pair <vu16> __key_state __attribute__((_ewram)) $/;"	kind:v
+_align4	gba_specific_stuff/attribute_defines.hpp	27;"	kind:d
+_bss	gba_specific_stuff/attribute_defines.hpp	16;"	kind:d
+_ewram	gba_specific_stuff/attribute_defines.hpp	11;"	kind:d
+_ewram_code	gba_specific_stuff/attribute_defines.hpp	20;"	kind:d
+_iwram	gba_specific_stuff/attribute_defines.hpp	12;"	kind:d
+_iwram_code	gba_specific_stuff/attribute_defines.hpp	21;"	kind:d
+_packed	gba_specific_stuff/attribute_defines.hpp	32;"	kind:d
+_sram	gba_specific_stuff/attribute_defines.hpp	13;"	kind:d
+air_block_stuff	gba_specific_stuff/block_stuff.hpp	/^class air_block_stuff : public block_base_stuff$/;"	kind:c	inherits:block_base_stuff
+air_block_stuff::get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () __attribute__ ((_iwram_code));$/;"	kind:p	class:air_block_stuff	access:public	signature:()
+air_block_stuff::get_metatile_number	gba_specific_stuff/block_stuff.thumb.cpp	/^const u32 air_block_stuff::get_metatile_number ()$/;"	kind:f	class:air_block_stuff	signature:()
+air_block_stuff::metatile_number	gba_specific_stuff/block_stuff.hpp	/^	static const u32 metatile_number = 0;$/;"	kind:m	class:air_block_stuff	access:public
+array_2d_helper	misc_helper_stuff/array_2d_helper_class.hpp	/^	array_2d_helper ( type* s_the_array, const vec2_u32& s_size_2d )$/;"	kind:f	class:array_2d_helper	access:public	signature:( type* s_the_array, const vec2_u32& s_size_2d )
+array_2d_helper	misc_helper_stuff/array_2d_helper_class.hpp	/^	array_2d_helper ()$/;"	kind:f	class:array_2d_helper	access:public	signature:()
+array_2d_helper	misc_helper_stuff/array_2d_helper_class.hpp	/^class array_2d_helper$/;"	kind:c
+array_2d_helper::array_2d_helper	misc_helper_stuff/array_2d_helper_class.hpp	/^	array_2d_helper ( type* s_the_array, const vec2_u32& s_size_2d )$/;"	kind:f	class:array_2d_helper	access:public	signature:( type* s_the_array, const vec2_u32& s_size_2d )
+array_2d_helper::array_2d_helper	misc_helper_stuff/array_2d_helper_class.hpp	/^	array_2d_helper ()$/;"	kind:f	class:array_2d_helper	access:public	signature:()
+array_2d_helper::data_at	misc_helper_stuff/array_2d_helper_class.hpp	/^	type& data_at ( const vec2_u32& offset_2d )$/;"	kind:f	class:array_2d_helper	access:public	signature:( const vec2_u32& offset_2d )
+array_2d_helper::data_at	misc_helper_stuff/array_2d_helper_class.hpp	/^	type& data_at ( u32 x, u32 y )$/;"	kind:f	class:array_2d_helper	access:public	signature:( u32 x, u32 y )
+array_2d_helper::get_size	misc_helper_stuff/array_2d_helper_class.hpp	/^	u32 get_size () const$/;"	kind:f	class:array_2d_helper	access:public	signature:() const
+array_2d_helper::get_size_2d	misc_helper_stuff/array_2d_helper_class.hpp	/^	const vec2_u32& get_size_2d () const$/;"	kind:f	class:array_2d_helper	access:public	signature:() const
+array_2d_helper::get_the_array	misc_helper_stuff/array_2d_helper_class.hpp	/^	const type* get_the_array () const$/;"	kind:f	class:array_2d_helper	access:public	signature:() const
+array_2d_helper::height	misc_helper_stuff/array_2d_helper_class.hpp	/^	u32 height () const$/;"	kind:f	class:array_2d_helper	access:public	signature:() const
+array_2d_helper::init	misc_helper_stuff/array_2d_helper_class.hpp	/^	void init ( type* s_the_array, const vec2_u32& s_size_2d )$/;"	kind:f	class:array_2d_helper	access:public	signature:( type* s_the_array, const vec2_u32& s_size_2d )
+array_2d_helper::operator =	misc_helper_stuff/array_2d_helper_class.hpp	/^	void operator = ( array_2d_helper <type>& to_copy )$/;"	kind:f	class:array_2d_helper	access:public	signature:( array_2d_helper <type>& to_copy )
+array_2d_helper::size	misc_helper_stuff/array_2d_helper_class.hpp	/^	u32 size;$/;"	kind:m	class:array_2d_helper	access:protected
+array_2d_helper::size_2d	misc_helper_stuff/array_2d_helper_class.hpp	/^	vec2_u32 size_2d;$/;"	kind:m	class:array_2d_helper	access:protected
+array_2d_helper::the_array	misc_helper_stuff/array_2d_helper_class.hpp	/^	type* the_array;$/;"	kind:m	class:array_2d_helper	access:public
+array_2d_helper::width	misc_helper_stuff/array_2d_helper_class.hpp	/^	u32 width () const$/;"	kind:f	class:array_2d_helper	access:public	signature:() const
+array_2d_helper_class_hpp	misc_helper_stuff/array_2d_helper_class.hpp	2;"	kind:d
+array_helper	misc_helper_stuff/array_helper_class.hpp	/^	array_helper ( type* s_the_array, u32 s_size )$/;"	kind:f	class:array_helper	access:public	signature:( type* s_the_array, u32 s_size )
+array_helper	misc_helper_stuff/array_helper_class.hpp	/^	array_helper ()$/;"	kind:f	class:array_helper	access:public	signature:()
+array_helper	misc_helper_stuff/array_helper_class.hpp	/^class array_helper$/;"	kind:c
+array_helper::array_helper	misc_helper_stuff/array_helper_class.hpp	/^	array_helper ( type* s_the_array, u32 s_size )$/;"	kind:f	class:array_helper	access:public	signature:( type* s_the_array, u32 s_size )
+array_helper::array_helper	misc_helper_stuff/array_helper_class.hpp	/^	array_helper ()$/;"	kind:f	class:array_helper	access:public	signature:()
+array_helper::data_at	misc_helper_stuff/array_helper_class.hpp	/^	type& data_at ( u32 offset )$/;"	kind:f	class:array_helper	access:public	signature:( u32 offset )
+array_helper::get_size	misc_helper_stuff/array_helper_class.hpp	/^	u32 get_size () const$/;"	kind:f	class:array_helper	access:public	signature:() const
+array_helper::get_the_array	misc_helper_stuff/array_helper_class.hpp	/^	const type* get_the_array () const$/;"	kind:f	class:array_helper	access:public	signature:() const
+array_helper::init	misc_helper_stuff/array_helper_class.hpp	/^	void init ( type* s_the_array, u32 s_size )$/;"	kind:f	class:array_helper	access:public	signature:( type* s_the_array, u32 s_size )
+array_helper::operator =	misc_helper_stuff/array_helper_class.hpp	/^	void operator = ( array_helper <type>& to_copy )$/;"	kind:f	class:array_helper	access:public	signature:( array_helper <type>& to_copy )
+array_helper::size	misc_helper_stuff/array_helper_class.hpp	/^	u32 size;$/;"	kind:m	class:array_helper	access:protected
+array_helper::the_array	misc_helper_stuff/array_helper_class.hpp	/^	type* the_array;$/;"	kind:m	class:array_helper	access:public
+array_helper_class_hpp	misc_helper_stuff/array_helper_class.hpp	2;"	kind:d
+arrsize	gba_specific_stuff/bg_reg_stuff.hpp	/^	static const u32 arrsize = 16;$/;"	kind:m	struct:tile8	access:public
+arrsize	gba_specific_stuff/bg_reg_stuff.hpp	/^	static const u32 arrsize = 8;$/;"	kind:m	struct:tile	access:public
+asm_funcs_hpp	gba_specific_stuff/asm_funcs.hpp	2;"	kind:d
+attr0	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 attr0;$/;"	kind:m	class:oam_entry	access:public
+attr1	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 attr1;$/;"	kind:m	class:oam_entry	access:public
+attr2	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 attr2;$/;"	kind:m	class:oam_entry	access:public
+attribute_defines_hpp	gba_specific_stuff/attribute_defines.hpp	2;"	kind:d
+back_up	misc_helper_stuff/prev_curr_pair_class.hpp	/^	inline void back_up ()$/;"	kind:f	struct:prev_curr_pair	access:public	signature:()
+back_up_and_update	misc_helper_stuff/prev_curr_pair_class.hpp	/^	inline void back_up_and_update ( const type& n_curr )$/;"	kind:f	struct:prev_curr_pair	access:public	signature:( const type& n_curr )
+basic_collision_stuff	gba_specific_stuff/sprite_class.hpp	/^	virtual void basic_collision_stuff ();$/;"	kind:p	class:sprite	access:public	signature:()
+basic_collision_stuff	gba_specific_stuff/sprite_class.thumb.cpp	/^void sprite::basic_collision_stuff ()$/;"	kind:f	class:sprite	signature:()
+bg0_sbb	gba_specific_stuff/level_loader_class.hpp	9;"	kind:d
+bg0_screenblock_mirror	main.thumb.cpp	/^scr_entry bg0_screenblock_mirror [screenblock_size] $/;"	kind:v
+bg_pal_ram	gba_specific_stuff/bg_reg_stuff.hpp	101;"	kind:d
+bg_pal_ram_size	gba_specific_stuff/bg_reg_stuff.hpp	/^static const u32 bg_pal_ram_size = 0x200;$/;"	kind:v
+bg_point	gba_specific_stuff/bg_reg_stuff.hpp	/^typedef vec2_s16 bg_point;$/;"	kind:t
+bg_reg_stuff_hpp	gba_specific_stuff/bg_reg_stuff.hpp	2;"	kind:d
+bg_tile_vram	gba_specific_stuff/bg_reg_stuff.hpp	38;"	kind:d
+bgcnt_4bpp	gba_specific_stuff/bg_reg_stuff.hpp	271;"	kind:d
+bgcnt_8bpp	gba_specific_stuff/bg_reg_stuff.hpp	272;"	kind:d
+bgcnt_aff_128x128	gba_specific_stuff/bg_reg_stuff.hpp	295;"	kind:d
+bgcnt_aff_16x16	gba_specific_stuff/bg_reg_stuff.hpp	292;"	kind:d
+bgcnt_aff_32x32	gba_specific_stuff/bg_reg_stuff.hpp	293;"	kind:d
+bgcnt_aff_64x64	gba_specific_stuff/bg_reg_stuff.hpp	294;"	kind:d
+bgcnt_aff_mask	gba_specific_stuff/bg_reg_stuff.hpp	296;"	kind:d
+bgcnt_bpp_mask	gba_specific_stuff/bg_reg_stuff.hpp	273;"	kind:d
+bgcnt_cbb	gba_specific_stuff/bg_reg_stuff.hpp	262;"	kind:d
+bgcnt_cbb_mask	gba_specific_stuff/bg_reg_stuff.hpp	263;"	kind:d
+bgcnt_mosaic_mask	gba_specific_stuff/bg_reg_stuff.hpp	268;"	kind:d
+bgcnt_mosaic_off	gba_specific_stuff/bg_reg_stuff.hpp	266;"	kind:d
+bgcnt_mosaic_on	gba_specific_stuff/bg_reg_stuff.hpp	267;"	kind:d
+bgcnt_prio	gba_specific_stuff/bg_reg_stuff.hpp	258;"	kind:d
+bgcnt_prio_mask	gba_specific_stuff/bg_reg_stuff.hpp	259;"	kind:d
+bgcnt_reg_32x32	gba_specific_stuff/bg_reg_stuff.hpp	285;"	kind:d
+bgcnt_reg_32x64	gba_specific_stuff/bg_reg_stuff.hpp	287;"	kind:d
+bgcnt_reg_64x32	gba_specific_stuff/bg_reg_stuff.hpp	286;"	kind:d
+bgcnt_reg_64x64	gba_specific_stuff/bg_reg_stuff.hpp	288;"	kind:d
+bgcnt_reg_mask	gba_specific_stuff/bg_reg_stuff.hpp	289;"	kind:d
+bgcnt_sbb	gba_specific_stuff/bg_reg_stuff.hpp	276;"	kind:d
+bgcnt_sbb_mask	gba_specific_stuff/bg_reg_stuff.hpp	277;"	kind:d
+bgcnt_wrap_mask	gba_specific_stuff/bg_reg_stuff.hpp	282;"	kind:d
+bgcnt_wrap_off	gba_specific_stuff/bg_reg_stuff.hpp	280;"	kind:d
+bgcnt_wrap_on	gba_specific_stuff/bg_reg_stuff.hpp	281;"	kind:d
+bgofs_mirror	gba_specific_stuff/bg_reg_stuff.arm.cpp	/^bg_point bgofs_mirror [bgofs_mirror_size];$/;"	kind:v
+bgofs_mirror_size	gba_specific_stuff/bg_reg_stuff.hpp	/^static const u32 bgofs_mirror_size = 4;$/;"	kind:v
+bios_arctan	gba_specific_stuff/bios_function_wrappers.hpp	27;"	kind:d
+bios_arctan2	gba_specific_stuff/bios_function_wrappers.hpp	29;"	kind:d
+bios_bg_affine_set	gba_specific_stuff/bios_function_wrappers.hpp	37;"	kind:d
+bios_bios_checksum	gba_specific_stuff/bios_function_wrappers.hpp	35;"	kind:d
+bios_bit_unpack	gba_specific_stuff/bios_function_wrappers.hpp	44;"	kind:d
+bios_cpu_fast_set	gba_specific_stuff/bios_function_wrappers.hpp	33;"	kind:d
+bios_cpu_set	gba_specific_stuff/bios_function_wrappers.hpp	31;"	kind:d
+bios_custom_halt	gba_specific_stuff/bios_function_wrappers.hpp	95;"	kind:d
+bios_diff_16bit_unfilter	gba_specific_stuff/bios_function_wrappers.hpp	63;"	kind:d
+bios_diff_8bit_unfilter_vram	gba_specific_stuff/bios_function_wrappers.hpp	58;"	kind:d
+bios_diff_8bit_unfilter_wram	gba_specific_stuff/bios_function_wrappers.hpp	56;"	kind:d
+bios_div	gba_specific_stuff/bios_function_wrappers.hpp	19;"	kind:d
+bios_div_arm	gba_specific_stuff/bios_function_wrappers.hpp	21;"	kind:d
+bios_function_wrappers_hpp	gba_specific_stuff/bios_function_wrappers.hpp	2;"	kind:d
+bios_get_jump_list	gba_specific_stuff/bios_function_wrappers.hpp	103;"	kind:d
+bios_halt	gba_specific_stuff/bios_function_wrappers.hpp	11;"	kind:d
+bios_hard_reset	gba_specific_stuff/bios_function_wrappers.hpp	93;"	kind:d
+bios_huff_uncomp	gba_specific_stuff/bios_function_wrappers.hpp	50;"	kind:d
+bios_intr_wait	gba_specific_stuff/bios_function_wrappers.hpp	15;"	kind:d
+bios_lz77_uncomp_vram	gba_specific_stuff/bios_function_wrappers.hpp	48;"	kind:d
+bios_lz77_uncomp_wram	gba_specific_stuff/bios_function_wrappers.hpp	46;"	kind:d
+bios_midi_key_2_freq	gba_specific_stuff/bios_function_wrappers.hpp	77;"	kind:d
+bios_multiboot	gba_specific_stuff/bios_function_wrappers.hpp	91;"	kind:d
+bios_music_player_continue	gba_specific_stuff/bios_function_wrappers.hpp	87;"	kind:d
+bios_music_player_fade_out	gba_specific_stuff/bios_function_wrappers.hpp	89;"	kind:d
+bios_music_player_open	gba_specific_stuff/bios_function_wrappers.hpp	81;"	kind:d
+bios_music_player_start	gba_specific_stuff/bios_function_wrappers.hpp	83;"	kind:d
+bios_music_player_stop	gba_specific_stuff/bios_function_wrappers.hpp	85;"	kind:d
+bios_obj_affine_set	gba_specific_stuff/bios_function_wrappers.hpp	39;"	kind:d
+bios_register_reg_reset	gba_specific_stuff/bios_function_wrappers.hpp	9;"	kind:d
+bios_rl_uncomp_vram	gba_specific_stuff/bios_function_wrappers.hpp	54;"	kind:d
+bios_rl_uncomp_wram	gba_specific_stuff/bios_function_wrappers.hpp	52;"	kind:d
+bios_soft_reset	gba_specific_stuff/bios_function_wrappers.hpp	7;"	kind:d
+bios_sound_bias_change	gba_specific_stuff/bios_function_wrappers.hpp	65;"	kind:d
+bios_sound_channel_clear	gba_specific_stuff/bios_function_wrappers.hpp	75;"	kind:d
+bios_sound_driver_init	gba_specific_stuff/bios_function_wrappers.hpp	67;"	kind:d
+bios_sound_driver_main	gba_specific_stuff/bios_function_wrappers.hpp	69;"	kind:d
+bios_sound_driver_mode	gba_specific_stuff/bios_function_wrappers.hpp	71;"	kind:d
+bios_sound_driver_vsync	gba_specific_stuff/bios_function_wrappers.hpp	73;"	kind:d
+bios_sound_driver_vsync_off	gba_specific_stuff/bios_function_wrappers.hpp	99;"	kind:d
+bios_sound_driver_vsync_on	gba_specific_stuff/bios_function_wrappers.hpp	101;"	kind:d
+bios_sqrt	gba_specific_stuff/bios_function_wrappers.hpp	25;"	kind:d
+bios_stop	gba_specific_stuff/bios_function_wrappers.hpp	13;"	kind:d
+bios_vblank_intr_wait	gba_specific_stuff/bios_function_wrappers.hpp	17;"	kind:d
+bios_wait_for_vblank	gba_specific_stuff/bios_function_wrappers.hpp	/^inline void bios_wait_for_vblank ()$/;"	kind:f	signature:()
+block	gba_specific_stuff/block_stuff.hpp	/^class block$/;"	kind:c
+block::extra_data_index	gba_specific_stuff/block_stuff.hpp	/^	u16 extra_data_index;$/;"	kind:m	class:block	access:public
+block::get_block_type	gba_specific_stuff/block_stuff.hpp	/^	inline block_type get_block_type () const$/;"	kind:f	class:block	access:public	signature:() const
+block::type	gba_specific_stuff/block_stuff.hpp	/^	u16 type;$/;"	kind:m	class:block	access:public
+block_base_stuff	gba_specific_stuff/block_stuff.hpp	/^class block_base_stuff$/;"	kind:c
+block_base_stuff::get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () = 0;$/;"	kind:p	class:block_base_stuff	access:public	signature:()
+block_data_array	gba_specific_stuff/block_stuff.thumb.cpp	/^block block_data_array [block_data_array_size] $/;"	kind:v
+block_data_array_size	gba_specific_stuff/block_stuff.hpp	/^static constexpr u32 block_data_array_size = 0x1800;$/;"	kind:v
+block_id_array	gba_specific_stuff/block_stuff.thumb.cpp	/^u16 block_id_array [block_id_array_size] __attribute__ ((_ewram));$/;"	kind:v
+block_id_array_size	gba_specific_stuff/block_stuff.hpp	/^static constexpr u32 block_id_array_size = 0x4000;$/;"	kind:v
+block_stuff_array	gba_specific_stuff/block_stuff.thumb.cpp	/^block_base_stuff* block_stuff_array [bt_count]$/;"	kind:v
+block_stuff_hpp	gba_specific_stuff/block_stuff.hpp	2;"	kind:d
+block_type	gba_specific_stuff/block_stuff.hpp	/^enum block_type$/;"	kind:g
+bot	misc_helper_stuff/coll_box_class.hpp	/^	inline fixed24p8 bot () const$/;"	kind:f	class:coll_box	access:public	signature:() const
+bt_air	gba_specific_stuff/block_stuff.hpp	/^	bt_air,$/;"	kind:e	enum:block_type
+bt_count	gba_specific_stuff/block_stuff.hpp	/^	bt_count,$/;"	kind:e	enum:block_type
+bt_dud	gba_specific_stuff/block_stuff.hpp	/^	bt_dud,$/;"	kind:e	enum:block_type
+bt_exclam	gba_specific_stuff/block_stuff.hpp	/^	bt_exclam,$/;"	kind:e	enum:block_type
+bt_log	gba_specific_stuff/block_stuff.hpp	/^	bt_log,$/;"	kind:e	enum:block_type
+bt_qmark	gba_specific_stuff/block_stuff.hpp	/^	bt_qmark,$/;"	kind:e	enum:block_type
+bt_wood	gba_specific_stuff/block_stuff.hpp	/^	bt_wood,$/;"	kind:e	enum:block_type
+button_stuff_hpp	gba_specific_stuff/button_stuff.hpp	2;"	kind:d
+byte_group_16	misc_helper_stuff/misc_types.hpp	/^union byte_group_16$/;"	kind:u
+byte_group_16::__anon1::data8	misc_helper_stuff/misc_types.hpp	/^		u8 data8 [2];$/;"	kind:m	struct:byte_group_16::__anon1	access:public
+byte_group_16::data16	misc_helper_stuff/misc_types.hpp	/^	u16 data16;$/;"	kind:m	union:byte_group_16	access:public
+byte_group_32	misc_helper_stuff/misc_types.hpp	/^union byte_group_32$/;"	kind:u
+byte_group_32::__anon2::data16	misc_helper_stuff/misc_types.hpp	/^		u16 data16 [2];$/;"	kind:m	struct:byte_group_32::__anon2	access:public
+byte_group_32::__anon3::data8	misc_helper_stuff/misc_types.hpp	/^		u8 data8 [4];$/;"	kind:m	struct:byte_group_32::__anon3	access:public
+byte_group_32::data32	misc_helper_stuff/misc_types.hpp	/^	u32 data32;$/;"	kind:m	union:byte_group_32	access:public
+byte_group_64	misc_helper_stuff/misc_types.hpp	/^union byte_group_64$/;"	kind:u
+byte_group_64::__anon4::data32	misc_helper_stuff/misc_types.hpp	/^		u32 data32 [2];$/;"	kind:m	struct:byte_group_64::__anon4	access:public
+byte_group_64::__anon5::data16	misc_helper_stuff/misc_types.hpp	/^		u16 data16 [4];$/;"	kind:m	struct:byte_group_64::__anon5	access:public
+byte_group_64::__anon6::data8	misc_helper_stuff/misc_types.hpp	/^		u8 data8 [8];$/;"	kind:m	struct:byte_group_64::__anon6	access:public
+byte_group_64::data64	misc_helper_stuff/misc_types.hpp	/^	u64 data64;$/;"	kind:m	union:byte_group_64	access:public
+calc_timer_freq	gba_specific_stuff/timer_stuff.hpp	/^inline constexpr u16 calc_timer_freq ( float freq )$/;"	kind:f	signature:( float freq )
+cb_pos_offset	gba_specific_stuff/sprite_class.hpp	/^	vec2_f24p8 cb_pos_offset;$/;"	kind:m	class:sprite	access:public
+channel_gbc_vol_100	gba_specific_stuff/sound_reg_stuff.hpp	39;"	kind:d
+channel_gbc_vol_25	gba_specific_stuff/sound_reg_stuff.hpp	35;"	kind:d
+channel_gbc_vol_50	gba_specific_stuff/sound_reg_stuff.hpp	37;"	kind:d
+channel_gbc_vol_mask	gba_specific_stuff/sound_reg_stuff.hpp	41;"	kind:d
+charblock	gba_specific_stuff/bg_reg_stuff.hpp	/^typedef tile charblock [charblock_size];$/;"	kind:t
+charblock8	gba_specific_stuff/bg_reg_stuff.hpp	/^typedef tile8 charblock8 [charblock8_size];$/;"	kind:t
+charblock8_size	gba_specific_stuff/bg_reg_stuff.hpp	/^static const u32 charblock8_size = 0x100;$/;"	kind:v
+charblock_size	gba_specific_stuff/bg_reg_stuff.hpp	/^static const u32 charblock_size = 0x200;$/;"	kind:v
+clear_and_set_bits	misc_helper_stuff/misc_bitwise_funcs.hpp	/^inline void clear_and_set_bits ( type& to_change, u32 clear_mask,$/;"	kind:f	signature:( type& to_change, u32 clear_mask, u32 set_mask )
+clear_bits	misc_helper_stuff/misc_bitwise_funcs.hpp	/^inline void clear_bits ( type& to_clear, u32 mask )$/;"	kind:f	signature:( type& to_clear, u32 mask )
+clear_debug_vars	misc_helper_stuff/debug_vars.hpp	/^void clear_debug_vars () __attribute__ ((_iwram_code));$/;"	kind:p	signature:()
+clear_debug_vars	misc_helper_stuff/debug_vars.thumb.cpp	/^void clear_debug_vars ()$/;"	kind:f	signature:()
+coll_box	misc_helper_stuff/coll_box_class.hpp	/^class coll_box$/;"	kind:c
+coll_box::bot	misc_helper_stuff/coll_box_class.hpp	/^	inline fixed24p8 bot () const$/;"	kind:f	class:coll_box	access:public	signature:() const
+coll_box::contains	misc_helper_stuff/coll_box_class.hpp	/^	int contains ( const vec2_f24p8& point );$/;"	kind:p	class:coll_box	access:public	signature:( const vec2_f24p8& point )
+coll_box::contains	misc_helper_stuff/coll_box_class.thumb.cpp	/^int coll_box::contains ( const vec2_f24p8& point )$/;"	kind:f	class:coll_box	signature:( const vec2_f24p8& point )
+coll_box::get_block_coords_intersected_by_corners	misc_helper_stuff/coll_box_class.hpp	/^	void get_block_coords_intersected_by_corners $/;"	kind:p	class:coll_box	access:public	signature:( vec2_s32& lt_block_coord, vec2_s32& rt_block_coord, vec2_s32& rb_block_coord, vec2_s32& lb_block_coord )
+coll_box::get_block_coords_intersected_by_corners	misc_helper_stuff/coll_box_class.thumb.cpp	/^void coll_box::get_block_coords_intersected_by_corners $/;"	kind:f	class:coll_box	signature:( vec2_s32& lt_block_coord, vec2_s32& rt_block_coord, vec2_s32& rb_block_coord, vec2_s32& lb_block_coord )
+coll_box::get_corners	misc_helper_stuff/coll_box_class.hpp	/^	void get_corners ( vec2_f24p8& lt_corner, vec2_f24p8& rt_corner, $/;"	kind:p	class:coll_box	access:public	signature:( vec2_f24p8& lt_corner, vec2_f24p8& rt_corner, vec2_f24p8& rb_corner, vec2_f24p8& lb_corner )
+coll_box::get_corners	misc_helper_stuff/coll_box_class.thumb.cpp	/^void coll_box::get_corners ( vec2_f24p8& lt_corner, vec2_f24p8& rt_corner, $/;"	kind:f	class:coll_box	signature:( vec2_f24p8& lt_corner, vec2_f24p8& rt_corner, vec2_f24p8& rb_corner, vec2_f24p8& lb_corner )
+coll_box::get_x_center	misc_helper_stuff/coll_box_class.hpp	/^	inline fixed24p8 get_x_center () const$/;"	kind:f	class:coll_box	access:public	signature:() const
+coll_box::get_y_center	misc_helper_stuff/coll_box_class.hpp	/^	inline fixed24p8 get_y_center () const$/;"	kind:f	class:coll_box	access:public	signature:() const
+coll_box::intersects_now	misc_helper_stuff/coll_box_class.hpp	/^	inline int intersects_now ( const coll_box& other )$/;"	kind:f	class:coll_box	access:public	signature:( const coll_box& other )
+coll_box::intersects_now_2	misc_helper_stuff/coll_box_class.hpp	/^	inline int intersects_now_2 ( const coll_box& other )$/;"	kind:f	class:coll_box	access:public	signature:( const coll_box& other )
+coll_box::left	misc_helper_stuff/coll_box_class.hpp	/^	inline fixed24p8 left () const$/;"	kind:f	class:coll_box	access:public	signature:() const
+coll_box::pos	misc_helper_stuff/coll_box_class.hpp	/^	vec2_f24p8 pos;$/;"	kind:m	class:coll_box	access:public
+coll_box::right	misc_helper_stuff/coll_box_class.hpp	/^	inline fixed24p8 right () const$/;"	kind:f	class:coll_box	access:public	signature:() const
+coll_box::set_side_coords	misc_helper_stuff/coll_box_class.hpp	/^	void set_side_coords ( fixed24p8 left_x, fixed24p8 right_x,$/;"	kind:p	class:coll_box	access:public	signature:( fixed24p8 left_x, fixed24p8 right_x, fixed24p8 top_y, fixed24p8 bot_y )
+coll_box::set_side_coords	misc_helper_stuff/coll_box_class.thumb.cpp	/^void coll_box::set_side_coords ( fixed24p8 left_x, fixed24p8 right_x,$/;"	kind:f	class:coll_box	signature:( fixed24p8 left_x, fixed24p8 right_x, fixed24p8 top_y, fixed24p8 bot_y )
+coll_box::size	misc_helper_stuff/coll_box_class.hpp	/^	vec2_f24p8 size;$/;"	kind:m	class:coll_box	access:public
+coll_box::top	misc_helper_stuff/coll_box_class.hpp	/^	inline fixed24p8 top () const$/;"	kind:f	class:coll_box	access:public	signature:() const
+coll_box_class_hpp	misc_helper_stuff/coll_box_class.hpp	2;"	kind:d
+coll_box_intersects_now	misc_helper_stuff/coll_box_class.hpp	/^int coll_box_intersects_now ( const coll_box&a, const coll_box& b );$/;"	kind:p	signature:( const coll_box&a, const coll_box& b )
+coll_box_intersects_now	misc_helper_stuff/coll_box_class.thumb.cpp	/^int coll_box_intersects_now ( const coll_box& a, const coll_box& b )$/;"	kind:f	signature:( const coll_box& a, const coll_box& b )
+coll_box_intersects_now_2	misc_helper_stuff/coll_box_class.hpp	/^int coll_box_intersects_now_2 ( const coll_box& a, const coll_box& b );$/;"	kind:p	signature:( const coll_box& a, const coll_box& b )
+coll_box_intersects_now_2	misc_helper_stuff/coll_box_class.thumb.cpp	/^int coll_box_intersects_now_2 ( const coll_box& a, const coll_box& b )$/;"	kind:f	signature:( const coll_box& a, const coll_box& b )
+contains	misc_helper_stuff/coll_box_class.hpp	/^	int contains ( const vec2_f24p8& point );$/;"	kind:p	class:coll_box	access:public	signature:( const vec2_f24p8& point )
+contains	misc_helper_stuff/coll_box_class.thumb.cpp	/^int coll_box::contains ( const vec2_f24p8& point )$/;"	kind:f	class:coll_box	signature:( const vec2_f24p8& point )
+copy_bgofs_mirror_to_registers	gba_specific_stuff/bg_reg_stuff.hpp	/^inline void copy_bgofs_mirror_to_registers ()$/;"	kind:f	signature:()
+copy_level_from_array_2d_helper_to_vram	gba_specific_stuff/level_loader_class.arm.cpp	/^void copy_level_from_array_2d_helper_to_vram$/;"	kind:f	signature:( array_2d_helper <scr_entry>& bg0_screenblock_2d, array_2d_helper <scr_entry>& the_array_2d_helper )
+copy_level_from_array_2d_helper_to_vram	gba_specific_stuff/level_loader_class.hpp	/^void copy_level_from_array_2d_helper_to_vram$/;"	kind:p	signature:( array_2d_helper <scr_entry>& bg0_screenblock_2d, array_2d_helper <scr_entry>& the_array_2d_helper )
+copy_oam_mirror_to_oam	gba_specific_stuff/oam_entry_classes.hpp	/^inline void copy_oam_mirror_to_oam ()$/;"	kind:f	signature:()
+copy_the_oam_entry_to_oam_mirror	gba_specific_stuff/sprite_class.hpp	/^	inline void copy_the_oam_entry_to_oam_mirror $/;"	kind:f	class:sprite	access:public	signature:( u32 slot_for_oam_mirror )
+correct_bg0_scroll_mirror	gba_specific_stuff/level_loader_class.arm.cpp	/^void correct_bg0_scroll_mirror ()$/;"	kind:f	signature:()
+correct_bg0_scroll_mirror	gba_specific_stuff/level_loader_class.hpp	/^void correct_bg0_scroll_mirror () __attribute__ ((_iwram_code));$/;"	kind:p	signature:()
+cur_debug_f24p8_index	misc_helper_stuff/debug_vars.thumb.cpp	/^u32 cur_debug_s32_index, cur_debug_u32_index, cur_debug_f24p8_index,$/;"	kind:v
+cur_debug_f8p8_index	misc_helper_stuff/debug_vars.thumb.cpp	/^	cur_debug_f8p8_index, cur_debug_st_result_index;$/;"	kind:v
+cur_debug_s32_index	misc_helper_stuff/debug_vars.thumb.cpp	/^u32 cur_debug_s32_index, cur_debug_u32_index, cur_debug_f24p8_index,$/;"	kind:v
+cur_debug_st_result_index	misc_helper_stuff/debug_vars.thumb.cpp	/^	cur_debug_f8p8_index, cur_debug_st_result_index;$/;"	kind:v
+cur_debug_u32_index	misc_helper_stuff/debug_vars.thumb.cpp	/^u32 cur_debug_s32_index, cur_debug_u32_index, cur_debug_f24p8_index,$/;"	kind:v
+curr	misc_helper_stuff/prev_curr_pair_class.hpp	/^	type prev, curr;$/;"	kind:m	struct:prev_curr_pair	access:public
+data	gba_specific_stuff/bg_reg_stuff.hpp	/^	u32 data [arrsize];$/;"	kind:m	struct:tile	access:public
+data	gba_specific_stuff/bg_reg_stuff.hpp	/^	u32 data [arrsize];$/;"	kind:m	struct:tile8	access:public
+data	misc_helper_stuff/fixed_classes.hpp	/^	s16 data;$/;"	kind:m	class:fixed8p8	access:public
+data	misc_helper_stuff/fixed_classes.hpp	/^	s32 data;$/;"	kind:m	class:fixed24p8	access:public
+data16	misc_helper_stuff/misc_types.hpp	/^		u16 data16 [2];$/;"	kind:m	struct:byte_group_32::__anon2	access:public
+data16	misc_helper_stuff/misc_types.hpp	/^		u16 data16 [4];$/;"	kind:m	struct:byte_group_64::__anon5	access:public
+data16	misc_helper_stuff/misc_types.hpp	/^	u16 data16;$/;"	kind:m	union:byte_group_16	access:public
+data32	misc_helper_stuff/misc_types.hpp	/^		u32 data32 [2];$/;"	kind:m	struct:byte_group_64::__anon4	access:public
+data32	misc_helper_stuff/misc_types.hpp	/^	u32 data32;$/;"	kind:m	union:byte_group_32	access:public
+data64	misc_helper_stuff/misc_types.hpp	/^	u64 data64;$/;"	kind:m	union:byte_group_64	access:public
+data8	misc_helper_stuff/misc_types.hpp	/^		u8 data8 [2];$/;"	kind:m	struct:byte_group_16::__anon1	access:public
+data8	misc_helper_stuff/misc_types.hpp	/^		u8 data8 [4];$/;"	kind:m	struct:byte_group_32::__anon3	access:public
+data8	misc_helper_stuff/misc_types.hpp	/^		u8 data8 [8];$/;"	kind:m	struct:byte_group_64::__anon6	access:public
+data_at	misc_helper_stuff/array_2d_helper_class.hpp	/^	type& data_at ( const vec2_u32& offset_2d )$/;"	kind:f	class:array_2d_helper	access:public	signature:( const vec2_u32& offset_2d )
+data_at	misc_helper_stuff/array_2d_helper_class.hpp	/^	type& data_at ( u32 x, u32 y )$/;"	kind:f	class:array_2d_helper	access:public	signature:( u32 x, u32 y )
+data_at	misc_helper_stuff/array_helper_class.hpp	/^	type& data_at ( u32 offset )$/;"	kind:f	class:array_helper	access:public	signature:( u32 offset )
+dcnt_bg0_off	gba_specific_stuff/bg_reg_stuff.hpp	183;"	kind:d
+dcnt_bg0_on	gba_specific_stuff/bg_reg_stuff.hpp	184;"	kind:d
+dcnt_bg0_onoff_mask	gba_specific_stuff/bg_reg_stuff.hpp	185;"	kind:d
+dcnt_bg1_off	gba_specific_stuff/bg_reg_stuff.hpp	188;"	kind:d
+dcnt_bg1_on	gba_specific_stuff/bg_reg_stuff.hpp	189;"	kind:d
+dcnt_bg1_onoff_mask	gba_specific_stuff/bg_reg_stuff.hpp	190;"	kind:d
+dcnt_bg2_off	gba_specific_stuff/bg_reg_stuff.hpp	193;"	kind:d
+dcnt_bg2_on	gba_specific_stuff/bg_reg_stuff.hpp	194;"	kind:d
+dcnt_bg2_onoff_mask	gba_specific_stuff/bg_reg_stuff.hpp	195;"	kind:d
+dcnt_bg3_off	gba_specific_stuff/bg_reg_stuff.hpp	198;"	kind:d
+dcnt_bg3_on	gba_specific_stuff/bg_reg_stuff.hpp	199;"	kind:d
+dcnt_bg3_onoff_mask	gba_specific_stuff/bg_reg_stuff.hpp	200;"	kind:d
+dcnt_blank_mask	gba_specific_stuff/bg_reg_stuff.hpp	180;"	kind:d
+dcnt_blank_off	gba_specific_stuff/bg_reg_stuff.hpp	178;"	kind:d
+dcnt_blank_on	gba_specific_stuff/bg_reg_stuff.hpp	179;"	kind:d
+dcnt_mode0	gba_specific_stuff/bg_reg_stuff.hpp	159;"	kind:d
+dcnt_mode1	gba_specific_stuff/bg_reg_stuff.hpp	160;"	kind:d
+dcnt_mode2	gba_specific_stuff/bg_reg_stuff.hpp	161;"	kind:d
+dcnt_mode3	gba_specific_stuff/bg_reg_stuff.hpp	162;"	kind:d
+dcnt_mode4	gba_specific_stuff/bg_reg_stuff.hpp	163;"	kind:d
+dcnt_mode5	gba_specific_stuff/bg_reg_stuff.hpp	164;"	kind:d
+dcnt_mode_mask	gba_specific_stuff/bg_reg_stuff.hpp	165;"	kind:d
+dcnt_obj_1d	gba_specific_stuff/bg_reg_stuff.hpp	174;"	kind:d
+dcnt_obj_2d	gba_specific_stuff/bg_reg_stuff.hpp	173;"	kind:d
+dcnt_obj_dim_mask	gba_specific_stuff/bg_reg_stuff.hpp	175;"	kind:d
+dcnt_obj_off	gba_specific_stuff/bg_reg_stuff.hpp	203;"	kind:d
+dcnt_obj_on	gba_specific_stuff/bg_reg_stuff.hpp	204;"	kind:d
+dcnt_obj_onoff_mask	gba_specific_stuff/bg_reg_stuff.hpp	205;"	kind:d
+dcnt_page_0	gba_specific_stuff/bg_reg_stuff.hpp	168;"	kind:d
+dcnt_page_1	gba_specific_stuff/bg_reg_stuff.hpp	169;"	kind:d
+dcnt_page_mask	gba_specific_stuff/bg_reg_stuff.hpp	170;"	kind:d
+dcnt_win0_off	gba_specific_stuff/bg_reg_stuff.hpp	208;"	kind:d
+dcnt_win0_on	gba_specific_stuff/bg_reg_stuff.hpp	209;"	kind:d
+dcnt_win0_onoff_mask	gba_specific_stuff/bg_reg_stuff.hpp	210;"	kind:d
+dcnt_win1_off	gba_specific_stuff/bg_reg_stuff.hpp	213;"	kind:d
+dcnt_win1_on	gba_specific_stuff/bg_reg_stuff.hpp	214;"	kind:d
+dcnt_win1_onoff_mask	gba_specific_stuff/bg_reg_stuff.hpp	215;"	kind:d
+dcnt_winobj_off	gba_specific_stuff/bg_reg_stuff.hpp	218;"	kind:d
+dcnt_winobj_on	gba_specific_stuff/bg_reg_stuff.hpp	219;"	kind:d
+dcnt_winobj_onoff_mask	gba_specific_stuff/bg_reg_stuff.hpp	220;"	kind:d
+debug_arr_f24p8	misc_helper_stuff/debug_vars.thumb.cpp	/^fixed24p8 debug_arr_f24p8 [debug_arr_f24p8_size];$/;"	kind:v
+debug_arr_f24p8_size	misc_helper_stuff/debug_vars.hpp	/^static const u32 debug_arr_f24p8_size = 32;$/;"	kind:v
+debug_arr_f8p8	misc_helper_stuff/debug_vars.thumb.cpp	/^fixed8p8 debug_arr_f8p8 [debug_arr_f8p8_size];$/;"	kind:v
+debug_arr_f8p8_size	misc_helper_stuff/debug_vars.hpp	/^static const u32 debug_arr_f8p8_size = 32;$/;"	kind:v
+debug_arr_s32	misc_helper_stuff/debug_vars.thumb.cpp	/^vs32 debug_arr_s32 [debug_arr_s32_size];$/;"	kind:v
+debug_arr_s32_size	misc_helper_stuff/debug_vars.hpp	/^static const u32 debug_arr_s32_size = 32;$/;"	kind:v
+debug_arr_u32	misc_helper_stuff/debug_vars.thumb.cpp	/^vu32 debug_arr_u32 [debug_arr_u32_size];$/;"	kind:v
+debug_arr_u32_size	misc_helper_stuff/debug_vars.hpp	/^static const u32 debug_arr_u32_size = 32;$/;"	kind:v
+debug_vars_hpp	misc_helper_stuff/debug_vars.hpp	2;"	kind:d
+dma0_cpy	gba_specific_stuff/dma_stuff.hpp	/^void dma0_cpy ( volatile void* dst, const void* src, u32 count, u32 mode );$/;"	kind:p	signature:( volatile void* dst, const void* src, u32 count, u32 mode )
+dma0_cpy	gba_specific_stuff/dma_stuff.thumb.cpp	/^void dma0_cpy ( volatile void* dst, const void* src, u32 count, $/;"	kind:f	signature:( volatile void* dst, const void* src, u32 count, u32 mode = 1 )
+dma0cnt_mirror	gba_specific_stuff/dma_stuff.thumb.cpp	/^vu32 dma0cnt_mirror, dma1cnt_mirror, dma2cnt_mirror, dma3cnt_mirror;$/;"	kind:v
+dma12_fifo	gba_specific_stuff/dma_stuff.hpp	99;"	kind:d
+dma1cnt_mirror	gba_specific_stuff/dma_stuff.thumb.cpp	/^vu32 dma0cnt_mirror, dma1cnt_mirror, dma2cnt_mirror, dma3cnt_mirror;$/;"	kind:v
+dma2cnt_mirror	gba_specific_stuff/dma_stuff.thumb.cpp	/^vu32 dma0cnt_mirror, dma1cnt_mirror, dma2cnt_mirror, dma3cnt_mirror;$/;"	kind:v
+dma3_cpy	gba_specific_stuff/dma_stuff.hpp	/^void dma3_cpy ( volatile void* dst, const void* src, u32 count, u32 mode );$/;"	kind:p	signature:( volatile void* dst, const void* src, u32 count, u32 mode )
+dma3_cpy	gba_specific_stuff/dma_stuff.thumb.cpp	/^void dma3_cpy ( volatile void* dst, const void* src, u32 count, $/;"	kind:f	signature:( volatile void* dst, const void* src, u32 count, u32 mode = 1 )
+dma3_fill	gba_specific_stuff/dma_stuff.hpp	/^void dma3_fill ( volatile void* dst, vu32 src, u32 count );$/;"	kind:p	signature:( volatile void* dst, vu32 src, u32 count )
+dma3_fill	gba_specific_stuff/dma_stuff.thumb.cpp	/^void dma3_fill ( volatile void* dst, vu32 src, u32 count )$/;"	kind:f	signature:( volatile void* dst, vu32 src, u32 count )
+dma3cnt_mirror	gba_specific_stuff/dma_stuff.thumb.cpp	/^vu32 dma0cnt_mirror, dma1cnt_mirror, dma2cnt_mirror, dma3cnt_mirror;$/;"	kind:v
+dma_16	gba_specific_stuff/dma_stuff.hpp	83;"	kind:d
+dma_32	gba_specific_stuff/dma_stuff.hpp	85;"	kind:d
+dma_at_hblank	gba_specific_stuff/dma_stuff.hpp	96;"	kind:d
+dma_at_refresh	gba_specific_stuff/dma_stuff.hpp	98;"	kind:d
+dma_at_vblank	gba_specific_stuff/dma_stuff.hpp	94;"	kind:d
+dma_chunk_size_mask	gba_specific_stuff/dma_stuff.hpp	87;"	kind:d
+dma_data_count	gba_specific_stuff/dma_stuff.hpp	45;"	kind:d
+dma_data_count_mask	gba_specific_stuff/dma_stuff.hpp	46;"	kind:d
+dma_dst_dec	gba_specific_stuff/dma_stuff.hpp	52;"	kind:d
+dma_dst_fixed	gba_specific_stuff/dma_stuff.hpp	54;"	kind:d
+dma_dst_inc	gba_specific_stuff/dma_stuff.hpp	50;"	kind:d
+dma_dst_mask	gba_specific_stuff/dma_stuff.hpp	58;"	kind:d
+dma_dst_reload	gba_specific_stuff/dma_stuff.hpp	56;"	kind:d
+dma_enable	gba_specific_stuff/dma_stuff.hpp	114;"	kind:d
+dma_irq_mask	gba_specific_stuff/dma_stuff.hpp	110;"	kind:d
+dma_irq_off	gba_specific_stuff/dma_stuff.hpp	106;"	kind:d
+dma_irq_on	gba_specific_stuff/dma_stuff.hpp	108;"	kind:d
+dma_now	gba_specific_stuff/dma_stuff.hpp	92;"	kind:d
+dma_repeat_mask	gba_specific_stuff/dma_stuff.hpp	78;"	kind:d
+dma_repeat_off	gba_specific_stuff/dma_stuff.hpp	74;"	kind:d
+dma_repeat_on	gba_specific_stuff/dma_stuff.hpp	76;"	kind:d
+dma_sound_a_left_disable	gba_specific_stuff/sound_reg_stuff.hpp	74;"	kind:d
+dma_sound_a_left_enable	gba_specific_stuff/sound_reg_stuff.hpp	75;"	kind:d
+dma_sound_a_left_mask	gba_specific_stuff/sound_reg_stuff.hpp	77;"	kind:d
+dma_sound_a_reset_fifo	gba_specific_stuff/sound_reg_stuff.hpp	89;"	kind:d
+dma_sound_a_right_disable	gba_specific_stuff/sound_reg_stuff.hpp	67;"	kind:d
+dma_sound_a_right_enable	gba_specific_stuff/sound_reg_stuff.hpp	68;"	kind:d
+dma_sound_a_right_mask	gba_specific_stuff/sound_reg_stuff.hpp	70;"	kind:d
+dma_sound_a_timer_select_mask	gba_specific_stuff/sound_reg_stuff.hpp	85;"	kind:d
+dma_sound_a_use_timer_0	gba_specific_stuff/sound_reg_stuff.hpp	82;"	kind:d
+dma_sound_a_use_timer_1	gba_specific_stuff/sound_reg_stuff.hpp	83;"	kind:d
+dma_sound_a_vol_100	gba_specific_stuff/sound_reg_stuff.hpp	49;"	kind:d
+dma_sound_a_vol_50	gba_specific_stuff/sound_reg_stuff.hpp	47;"	kind:d
+dma_sound_a_vol_mask	gba_specific_stuff/sound_reg_stuff.hpp	51;"	kind:d
+dma_sound_b_left_disable	gba_specific_stuff/sound_reg_stuff.hpp	103;"	kind:d
+dma_sound_b_left_enable	gba_specific_stuff/sound_reg_stuff.hpp	104;"	kind:d
+dma_sound_b_left_mask	gba_specific_stuff/sound_reg_stuff.hpp	106;"	kind:d
+dma_sound_b_reset_fifo	gba_specific_stuff/sound_reg_stuff.hpp	118;"	kind:d
+dma_sound_b_right_disable	gba_specific_stuff/sound_reg_stuff.hpp	96;"	kind:d
+dma_sound_b_right_enable	gba_specific_stuff/sound_reg_stuff.hpp	97;"	kind:d
+dma_sound_b_right_mask	gba_specific_stuff/sound_reg_stuff.hpp	99;"	kind:d
+dma_sound_b_timer_select_mask	gba_specific_stuff/sound_reg_stuff.hpp	114;"	kind:d
+dma_sound_b_use_timer_0	gba_specific_stuff/sound_reg_stuff.hpp	111;"	kind:d
+dma_sound_b_use_timer_1	gba_specific_stuff/sound_reg_stuff.hpp	112;"	kind:d
+dma_sound_b_vol_100	gba_specific_stuff/sound_reg_stuff.hpp	60;"	kind:d
+dma_sound_b_vol_50	gba_specific_stuff/sound_reg_stuff.hpp	58;"	kind:d
+dma_sound_b_vol_mask	gba_specific_stuff/sound_reg_stuff.hpp	62;"	kind:d
+dma_src_dec	gba_specific_stuff/dma_stuff.hpp	65;"	kind:d
+dma_src_fixed	gba_specific_stuff/dma_stuff.hpp	67;"	kind:d
+dma_src_inc	gba_specific_stuff/dma_stuff.hpp	63;"	kind:d
+dma_src_mask	gba_specific_stuff/dma_stuff.hpp	69;"	kind:d
+dma_stuff_hpp	gba_specific_stuff/dma_stuff.hpp	2;"	kind:d
+dma_timing_mask	gba_specific_stuff/dma_stuff.hpp	101;"	kind:d
+dstat_hbl_irq	gba_specific_stuff/bg_reg_stuff.hpp	241;"	kind:d
+dstat_in_hbl	gba_specific_stuff/bg_reg_stuff.hpp	232;"	kind:d
+dstat_in_vbl	gba_specific_stuff/bg_reg_stuff.hpp	229;"	kind:d
+dstat_in_vct	gba_specific_stuff/bg_reg_stuff.hpp	235;"	kind:d
+dstat_vbl_irq	gba_specific_stuff/bg_reg_stuff.hpp	238;"	kind:d
+dstat_vct	gba_specific_stuff/bg_reg_stuff.hpp	247;"	kind:d
+dstat_vct_irq	gba_specific_stuff/bg_reg_stuff.hpp	244;"	kind:d
+dud_block_stuff	gba_specific_stuff/block_stuff.hpp	/^class dud_block_stuff : public block_base_stuff$/;"	kind:c	inherits:block_base_stuff
+dud_block_stuff::get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () __attribute__ ((_iwram_code));$/;"	kind:p	class:dud_block_stuff	access:public	signature:()
+dud_block_stuff::get_metatile_number	gba_specific_stuff/block_stuff.thumb.cpp	/^const u32 dud_block_stuff::get_metatile_number ()$/;"	kind:f	class:dud_block_stuff	signature:()
+dud_block_stuff::metatile_number	gba_specific_stuff/block_stuff.hpp	/^	static const u32 metatile_number = 5;$/;"	kind:m	class:dud_block_stuff	access:public
+exclam_block_stuff	gba_specific_stuff/block_stuff.hpp	/^class exclam_block_stuff : public block_base_stuff$/;"	kind:c	inherits:block_base_stuff
+exclam_block_stuff::get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () __attribute__ ((_iwram_code));$/;"	kind:p	class:exclam_block_stuff	access:public	signature:()
+exclam_block_stuff::get_metatile_number	gba_specific_stuff/block_stuff.thumb.cpp	/^const u32 exclam_block_stuff::get_metatile_number ()$/;"	kind:f	class:exclam_block_stuff	signature:()
+exclam_block_stuff::metatile_number	gba_specific_stuff/block_stuff.hpp	/^	static const u32 metatile_number = 4;$/;"	kind:m	class:exclam_block_stuff	access:public
+extra_block_data_array	gba_specific_stuff/block_stuff.thumb.cpp	/^u16 extra_block_data_array [extra_block_data_array_size]$/;"	kind:v
+extra_block_data_array_size	gba_specific_stuff/block_stuff.hpp	/^static constexpr u32 extra_block_data_array_size = 0x1000;$/;"	kind:v
+extra_data_index	gba_specific_stuff/block_stuff.hpp	/^	u16 extra_data_index;$/;"	kind:m	class:block	access:public
+f24p8_div_by_f8p8	misc_helper_stuff/fixed_classes.hpp	/^extern fixed24p8 f24p8_div_by_f8p8 ( const fixed24p8& num, $/;"	kind:p	signature:( const fixed24p8& num, const fixed8p8& den )
+f24p8_div_by_f8p8	misc_helper_stuff/fixed_classes.thumb.cpp	/^fixed24p8 f24p8_div_by_f8p8 ( const fixed24p8& num, const fixed8p8& den )$/;"	kind:f	signature:( const fixed24p8& num, const fixed8p8& den )
+fill	gba_specific_stuff/oam_entry_classes.hpp	/^	s16 fill;$/;"	kind:m	class:oam_entry	access:public
+fill0	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 fill0 [fill_size];$/;"	kind:m	class:oam_entry_affine	access:public
+fill1	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 fill1 [fill_size];$/;"	kind:m	class:oam_entry_affine	access:public
+fill2	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 fill2 [fill_size];$/;"	kind:m	class:oam_entry_affine	access:public
+fill3	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 fill3 [fill_size];$/;"	kind:m	class:oam_entry_affine	access:public
+fill_size	gba_specific_stuff/oam_entry_classes.hpp	/^	static const u32 fill_size = 3;$/;"	kind:m	class:oam_entry_affine	access:public
+fixed24p8	misc_helper_stuff/fixed_classes.hpp	/^class fixed24p8$/;"	kind:c
+fixed24p8::data	misc_helper_stuff/fixed_classes.hpp	/^	s32 data;$/;"	kind:m	class:fixed24p8	access:public
+fixed24p8::frac_mask	misc_helper_stuff/fixed_classes.hpp	/^	static const u32 frac_mask = 0xff;$/;"	kind:m	class:fixed24p8	access:public
+fixed24p8::get_frac_bits	misc_helper_stuff/fixed_classes.hpp	/^	inline u8 get_frac_bits () const;$/;"	kind:p	class:fixed24p8	access:public	signature:() const
+fixed24p8::get_frac_bits	misc_helper_stuff/fixed_classes.hpp	/^inline u8 fixed24p8::get_frac_bits () const$/;"	kind:f	class:fixed24p8	signature:() const
+fixed24p8::operator !=	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator != ( const fixed24p8& to_cmp ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_cmp ) const
+fixed24p8::operator !=	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed24p8::operator != ( const fixed24p8& to_cmp ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_cmp ) const
+fixed24p8::operator *	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed24p8 operator * ( const fixed8p8& to_mul ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed8p8& to_mul ) const
+fixed24p8::operator *	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8 fixed24p8::operator * ( const fixed8p8& to_mul ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed8p8& to_mul ) const
+fixed24p8::operator *=	misc_helper_stuff/fixed_classes.hpp	/^	inline void operator *= ( const fixed8p8& to_mul );$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed8p8& to_mul )
+fixed24p8::operator *=	misc_helper_stuff/fixed_classes.hpp	/^inline void fixed24p8::operator *= ( const fixed8p8& to_mul )$/;"	kind:f	class:fixed24p8	signature:( const fixed8p8& to_mul )
+fixed24p8::operator +	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed24p8 operator + ( const fixed24p8& to_add ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_add ) const
+fixed24p8::operator +	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8 fixed24p8::operator + ( const fixed24p8& to_add ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_add ) const
+fixed24p8::operator +=	misc_helper_stuff/fixed_classes.hpp	/^	inline void operator += ( const fixed24p8& to_add );$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_add )
+fixed24p8::operator +=	misc_helper_stuff/fixed_classes.hpp	/^inline void fixed24p8::operator += ( const fixed24p8& to_add )$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_add )
+fixed24p8::operator -	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed24p8 operator - ( const fixed24p8& to_sub ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_sub ) const
+fixed24p8::operator -	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8 fixed24p8::operator - ( const fixed24p8& to_sub ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_sub ) const
+fixed24p8::operator -=	misc_helper_stuff/fixed_classes.hpp	/^	inline void operator -= ( const fixed24p8& to_sub );$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_sub )
+fixed24p8::operator -=	misc_helper_stuff/fixed_classes.hpp	/^inline void fixed24p8::operator -= ( const fixed24p8& to_sub )$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_sub )
+fixed24p8::operator /	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed24p8 operator \/ ( const fixed8p8& den ) const$/;"	kind:f	class:fixed24p8	access:public	signature:( const fixed8p8& den ) const
+fixed24p8::operator /=	misc_helper_stuff/fixed_classes.hpp	/^	inline void operator \/= ( const fixed8p8& den )$/;"	kind:f	class:fixed24p8	access:public	signature:( const fixed8p8& den )
+fixed24p8::operator <	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator < ( const fixed24p8& to_cmp ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_cmp ) const
+fixed24p8::operator <	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed24p8::operator < ( const fixed24p8& to_cmp ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_cmp ) const
+fixed24p8::operator <=	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator <= ( const fixed24p8& to_cmp ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_cmp ) const
+fixed24p8::operator <=	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed24p8::operator <= ( const fixed24p8& to_cmp ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_cmp ) const
+fixed24p8::operator =	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed24p8& operator = ( const fixed24p8& to_copy );$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_copy )
+fixed24p8::operator =	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed24p8& operator = ( s32 to_copy );$/;"	kind:p	class:fixed24p8	access:public	signature:( s32 to_copy )
+fixed24p8::operator =	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8& fixed24p8::operator = ( const fixed24p8& to_copy )$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_copy )
+fixed24p8::operator =	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8& fixed24p8::operator = ( s32 to_copy )$/;"	kind:f	class:fixed24p8	signature:( s32 to_copy )
+fixed24p8::operator ==	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator == ( const fixed24p8& to_cmp ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_cmp ) const
+fixed24p8::operator ==	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed24p8::operator == ( const fixed24p8& to_cmp ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_cmp ) const
+fixed24p8::operator >	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator > ( const fixed24p8& to_cmp ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_cmp ) const
+fixed24p8::operator >	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed24p8::operator > ( const fixed24p8& to_cmp ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_cmp ) const
+fixed24p8::operator >=	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator >= ( const fixed24p8& to_cmp ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_cmp ) const
+fixed24p8::operator >=	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed24p8::operator >= ( const fixed24p8& to_cmp ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_cmp ) const
+fixed24p8::operator fixed8p8	misc_helper_stuff/fixed_classes.hpp	/^	inline operator fixed8p8 () const;$/;"	kind:p	class:fixed24p8	access:public	signature:() const
+fixed24p8::operator fixed8p8	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8::operator fixed8p8 () const$/;"	kind:f	class:fixed24p8	signature:() const
+fixed24p8::round_to_int	misc_helper_stuff/fixed_classes.hpp	/^	inline s32 round_to_int () const;$/;"	kind:p	class:fixed24p8	access:public	signature:() const
+fixed24p8::round_to_int	misc_helper_stuff/fixed_classes.hpp	/^inline s32 fixed24p8::round_to_int () const$/;"	kind:f	class:fixed24p8	signature:() const
+fixed24p8::shift	misc_helper_stuff/fixed_classes.hpp	/^	static const u32 shift = 8;$/;"	kind:m	class:fixed24p8	access:public
+fixed24p8::trunc_to_int	misc_helper_stuff/fixed_classes.hpp	/^	inline s32 trunc_to_int () const;$/;"	kind:p	class:fixed24p8	access:public	signature:() const
+fixed24p8::trunc_to_int	misc_helper_stuff/fixed_classes.hpp	/^inline s32 fixed24p8::trunc_to_int () const$/;"	kind:f	class:fixed24p8	signature:() const
+fixed8p8	misc_helper_stuff/fixed_classes.hpp	/^class fixed8p8$/;"	kind:c
+fixed8p8::data	misc_helper_stuff/fixed_classes.hpp	/^	s16 data;$/;"	kind:m	class:fixed8p8	access:public
+fixed8p8::frac_mask	misc_helper_stuff/fixed_classes.hpp	/^	static const u32 frac_mask = 0xff;$/;"	kind:m	class:fixed8p8	access:public
+fixed8p8::get_frac_bits	misc_helper_stuff/fixed_classes.hpp	/^	inline u8 get_frac_bits () const;$/;"	kind:p	class:fixed8p8	access:public	signature:() const
+fixed8p8::get_frac_bits	misc_helper_stuff/fixed_classes.hpp	/^inline u8 fixed8p8::get_frac_bits () const$/;"	kind:f	class:fixed8p8	signature:() const
+fixed8p8::operator !=	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator != ( const fixed8p8& to_cmp ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_cmp ) const
+fixed8p8::operator !=	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed8p8::operator != ( const fixed8p8& to_cmp ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_cmp ) const
+fixed8p8::operator +	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed8p8 operator + ( const fixed8p8& to_add ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_add ) const
+fixed8p8::operator +	misc_helper_stuff/fixed_classes.hpp	/^inline fixed8p8 fixed8p8::operator + ( const fixed8p8& to_add ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_add ) const
+fixed8p8::operator +=	misc_helper_stuff/fixed_classes.hpp	/^	inline void operator += ( const fixed8p8& to_add );$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_add )
+fixed8p8::operator +=	misc_helper_stuff/fixed_classes.hpp	/^inline void fixed8p8::operator += ( const fixed8p8& to_add )$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_add )
+fixed8p8::operator -	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed8p8 operator - ( const fixed8p8& to_sub ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_sub ) const
+fixed8p8::operator -	misc_helper_stuff/fixed_classes.hpp	/^inline fixed8p8 fixed8p8::operator - ( const fixed8p8& to_sub ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_sub ) const
+fixed8p8::operator -=	misc_helper_stuff/fixed_classes.hpp	/^	inline void operator -= ( const fixed8p8& to_sub );$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_sub )
+fixed8p8::operator -=	misc_helper_stuff/fixed_classes.hpp	/^inline void fixed8p8::operator -= ( const fixed8p8& to_sub )$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_sub )
+fixed8p8::operator <	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator < ( const fixed8p8& to_cmp ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_cmp ) const
+fixed8p8::operator <	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed8p8::operator < ( const fixed8p8& to_cmp ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_cmp ) const
+fixed8p8::operator <=	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator <= ( const fixed8p8& to_cmp ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_cmp ) const
+fixed8p8::operator <=	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed8p8::operator <= ( const fixed8p8& to_cmp ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_cmp ) const
+fixed8p8::operator =	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed8p8& operator = ( const fixed8p8& to_copy );$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_copy )
+fixed8p8::operator =	misc_helper_stuff/fixed_classes.hpp	/^inline fixed8p8& fixed8p8::operator = ( const fixed8p8& to_copy )$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_copy )
+fixed8p8::operator ==	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator == ( const fixed8p8& to_cmp ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_cmp ) const
+fixed8p8::operator ==	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed8p8::operator == ( const fixed8p8& to_cmp ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_cmp ) const
+fixed8p8::operator >	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator > ( const fixed8p8& to_cmp ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_cmp ) const
+fixed8p8::operator >	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed8p8::operator > ( const fixed8p8& to_cmp ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_cmp ) const
+fixed8p8::operator >=	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator >= ( const fixed8p8& to_cmp ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_cmp ) const
+fixed8p8::operator >=	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed8p8::operator >= ( const fixed8p8& to_cmp ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_cmp ) const
+fixed8p8::operator fixed24p8	misc_helper_stuff/fixed_classes.hpp	/^	inline operator fixed24p8 () const;$/;"	kind:p	class:fixed8p8	access:public	signature:() const
+fixed8p8::operator fixed24p8	misc_helper_stuff/fixed_classes.hpp	/^inline fixed8p8::operator fixed24p8 () const$/;"	kind:f	class:fixed8p8	signature:() const
+fixed8p8::round_to_int	misc_helper_stuff/fixed_classes.hpp	/^	inline s16 round_to_int () const;$/;"	kind:p	class:fixed8p8	access:public	signature:() const
+fixed8p8::round_to_int	misc_helper_stuff/fixed_classes.hpp	/^inline s16 fixed8p8::round_to_int () const$/;"	kind:f	class:fixed8p8	signature:() const
+fixed8p8::shift	misc_helper_stuff/fixed_classes.hpp	/^	static const u32 shift = 8;$/;"	kind:m	class:fixed8p8	access:public
+fixed8p8::trunc_to_int	misc_helper_stuff/fixed_classes.hpp	/^	inline s16 trunc_to_int () const;$/;"	kind:p	class:fixed8p8	access:public	signature:() const
+fixed8p8::trunc_to_int	misc_helper_stuff/fixed_classes.hpp	/^inline s16 fixed8p8::trunc_to_int () const$/;"	kind:f	class:fixed8p8	signature:() const
+fixed_classes_hpp	misc_helper_stuff/fixed_classes.hpp	2;"	kind:d
+frac_mask	misc_helper_stuff/fixed_classes.hpp	/^	static const u32 frac_mask = 0xff;$/;"	kind:m	class:fixed24p8	access:public
+frac_mask	misc_helper_stuff/fixed_classes.hpp	/^	static const u32 frac_mask = 0xff;$/;"	kind:m	class:fixed8p8	access:public
+get_bits	misc_helper_stuff/misc_bitwise_funcs.hpp	/^inline constexpr type get_bits ( type to_get_from, u32 mask, u32 shift=0 )$/;"	kind:f	signature:( type to_get_from, u32 mask, u32 shift=0 )
+get_block_coord_of_point	gba_specific_stuff/block_stuff.hpp	/^inline vec2_s32 get_block_coord_of_point ( const vec2_f24p8& pt )$/;"	kind:f	signature:( const vec2_f24p8& pt )
+get_block_coords_intersected_by_corners	misc_helper_stuff/coll_box_class.hpp	/^	void get_block_coords_intersected_by_corners $/;"	kind:p	class:coll_box	access:public	signature:( vec2_s32& lt_block_coord, vec2_s32& rt_block_coord, vec2_s32& rb_block_coord, vec2_s32& lb_block_coord )
+get_block_coords_intersected_by_corners	misc_helper_stuff/coll_box_class.thumb.cpp	/^void coll_box::get_block_coords_intersected_by_corners $/;"	kind:f	class:coll_box	signature:( vec2_s32& lt_block_coord, vec2_s32& rt_block_coord, vec2_s32& rb_block_coord, vec2_s32& lb_block_coord )
+get_block_type	gba_specific_stuff/block_stuff.hpp	/^	inline block_type get_block_type () const$/;"	kind:f	class:block	access:public	signature:() const
+get_block_type_and_block_coord_at_point	gba_specific_stuff/block_stuff.hpp	/^inline void get_block_type_and_block_coord_at_point ( const vec2_f24p8& pt, $/;"	kind:f	signature:( const vec2_f24p8& pt, vec2_s32& the_block_coord, block_type& the_block_type )
+get_block_type_at_coord	gba_specific_stuff/block_stuff.hpp	/^inline block_type get_block_type_at_coord ( const vec2_s32& block_coord )$/;"	kind:f	signature:( const vec2_s32& block_coord )
+get_block_type_at_coord	gba_specific_stuff/block_stuff.hpp	/^inline block_type get_block_type_at_coord ( const vec2_u32& block_coord )$/;"	kind:f	signature:( const vec2_u32& block_coord )
+get_corners	misc_helper_stuff/coll_box_class.hpp	/^	void get_corners ( vec2_f24p8& lt_corner, vec2_f24p8& rt_corner, $/;"	kind:p	class:coll_box	access:public	signature:( vec2_f24p8& lt_corner, vec2_f24p8& rt_corner, vec2_f24p8& rb_corner, vec2_f24p8& lb_corner )
+get_corners	misc_helper_stuff/coll_box_class.thumb.cpp	/^void coll_box::get_corners ( vec2_f24p8& lt_corner, vec2_f24p8& rt_corner, $/;"	kind:f	class:coll_box	signature:( vec2_f24p8& lt_corner, vec2_f24p8& rt_corner, vec2_f24p8& rb_corner, vec2_f24p8& lb_corner )
+get_frac_bits	misc_helper_stuff/fixed_classes.hpp	/^	inline u8 get_frac_bits () const;$/;"	kind:p	class:fixed24p8	access:public	signature:() const
+get_frac_bits	misc_helper_stuff/fixed_classes.hpp	/^	inline u8 get_frac_bits () const;$/;"	kind:p	class:fixed8p8	access:public	signature:() const
+get_frac_bits	misc_helper_stuff/fixed_classes.hpp	/^inline u8 fixed24p8::get_frac_bits () const$/;"	kind:f	class:fixed24p8	signature:() const
+get_frac_bits	misc_helper_stuff/fixed_classes.hpp	/^inline u8 fixed8p8::get_frac_bits () const$/;"	kind:f	class:fixed8p8	signature:() const
+get_graphics_slot_of_block_type	gba_specific_stuff/block_stuff.hpp	/^inline const u32 get_graphics_slot_of_block_type $/;"	kind:f	signature:( block_type the_block_type )
+get_graphics_slot_of_block_type	gba_specific_stuff/block_stuff.hpp	/^inline const u32 get_graphics_slot_of_block_type $/;"	kind:p	signature:( block_type the_block_type )
+get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () = 0;$/;"	kind:p	class:block_base_stuff	access:public	signature:()
+get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () __attribute__ ((_iwram_code));$/;"	kind:p	class:air_block_stuff	access:public	signature:()
+get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () __attribute__ ((_iwram_code));$/;"	kind:p	class:dud_block_stuff	access:public	signature:()
+get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () __attribute__ ((_iwram_code));$/;"	kind:p	class:exclam_block_stuff	access:public	signature:()
+get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () __attribute__ ((_iwram_code));$/;"	kind:p	class:log_block_stuff	access:public	signature:()
+get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () __attribute__ ((_iwram_code));$/;"	kind:p	class:qmark_block_stuff	access:public	signature:()
+get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () __attribute__ ((_iwram_code));$/;"	kind:p	class:wood_block_stuff	access:public	signature:()
+get_metatile_number	gba_specific_stuff/block_stuff.thumb.cpp	/^const u32 air_block_stuff::get_metatile_number ()$/;"	kind:f	class:air_block_stuff	signature:()
+get_metatile_number	gba_specific_stuff/block_stuff.thumb.cpp	/^const u32 dud_block_stuff::get_metatile_number ()$/;"	kind:f	class:dud_block_stuff	signature:()
+get_metatile_number	gba_specific_stuff/block_stuff.thumb.cpp	/^const u32 exclam_block_stuff::get_metatile_number ()$/;"	kind:f	class:exclam_block_stuff	signature:()
+get_metatile_number	gba_specific_stuff/block_stuff.thumb.cpp	/^const u32 log_block_stuff::get_metatile_number ()$/;"	kind:f	class:log_block_stuff	signature:()
+get_metatile_number	gba_specific_stuff/block_stuff.thumb.cpp	/^const u32 qmark_block_stuff::get_metatile_number ()$/;"	kind:f	class:qmark_block_stuff	signature:()
+get_metatile_number	gba_specific_stuff/block_stuff.thumb.cpp	/^const u32 wood_block_stuff::get_metatile_number ()$/;"	kind:f	class:wood_block_stuff	signature:()
+get_metatile_number_of_block_type	gba_specific_stuff/block_stuff.hpp	/^inline u32 get_metatile_number_of_block_type ( block_type the_block_type ) $/;"	kind:p	signature:( block_type the_block_type )
+get_metatile_number_of_block_type	gba_specific_stuff/block_stuff.hpp	/^inline u32 get_metatile_number_of_block_type ( block_type the_block_type )$/;"	kind:f	signature:( block_type the_block_type )
+get_shape_size	gba_specific_stuff/oam_entry_classes.hpp	/^	shape_size get_shape_size () const;$/;"	kind:p	class:oam_entry	access:public	signature:() const
+get_shape_size	gba_specific_stuff/oam_entry_classes.thumb.cpp	/^oam_entry::shape_size oam_entry::get_shape_size () const$/;"	kind:f	class:oam_entry	signature:() const
+get_shape_size	gba_specific_stuff/sprite_class.hpp	/^	inline oam_entry::shape_size get_shape_size () const$/;"	kind:f	class:sprite	access:public	signature:() const
+get_shape_size_as_vec2	gba_specific_stuff/oam_entry_classes.hpp	/^	vec2_u32 get_shape_size_as_vec2 () const;$/;"	kind:p	class:oam_entry	access:public	signature:() const
+get_shape_size_as_vec2	gba_specific_stuff/oam_entry_classes.thumb.cpp	/^vec2_u32 oam_entry::get_shape_size_as_vec2 () const$/;"	kind:f	class:oam_entry	signature:() const
+get_shape_size_as_vec2	gba_specific_stuff/sprite_class.hpp	/^	inline const vec2_u32& get_shape_size_as_vec2 () const$/;"	kind:f	class:sprite	access:public	signature:() const
+get_shape_size_as_vec2_raw	gba_specific_stuff/sprite_class.hpp	/^	vec2_u32 get_shape_size_as_vec2_raw () const;$/;"	kind:p	class:sprite	access:protected	signature:() const
+get_shape_size_as_vec2_raw	gba_specific_stuff/sprite_class.thumb.cpp	/^vec2_u32 sprite::get_shape_size_as_vec2_raw () const$/;"	kind:f	class:sprite	signature:() const
+get_size	misc_helper_stuff/array_2d_helper_class.hpp	/^	u32 get_size () const$/;"	kind:f	class:array_2d_helper	access:public	signature:() const
+get_size	misc_helper_stuff/array_helper_class.hpp	/^	u32 get_size () const$/;"	kind:f	class:array_helper	access:public	signature:() const
+get_size_2d	misc_helper_stuff/array_2d_helper_class.hpp	/^	const vec2_u32& get_size_2d () const$/;"	kind:f	class:array_2d_helper	access:public	signature:() const
+get_the_array	misc_helper_stuff/array_2d_helper_class.hpp	/^	const type* get_the_array () const$/;"	kind:f	class:array_2d_helper	access:public	signature:() const
+get_the_array	misc_helper_stuff/array_helper_class.hpp	/^	const type* get_the_array () const$/;"	kind:f	class:array_helper	access:public	signature:() const
+get_x_center	misc_helper_stuff/coll_box_class.hpp	/^	inline fixed24p8 get_x_center () const$/;"	kind:f	class:coll_box	access:public	signature:() const
+get_x_coord	gba_specific_stuff/oam_entry_classes.hpp	/^	s32 get_x_coord () const$/;"	kind:f	class:oam_entry	access:public	signature:() const
+get_y_center	misc_helper_stuff/coll_box_class.hpp	/^	inline fixed24p8 get_y_center () const$/;"	kind:f	class:coll_box	access:public	signature:() const
+get_y_coord	gba_specific_stuff/oam_entry_classes.hpp	/^	s32 get_y_coord () const$/;"	kind:f	class:oam_entry	access:public	signature:() const
+has_changed	misc_helper_stuff/prev_curr_pair_class.hpp	/^	inline bool has_changed () const$/;"	kind:f	struct:prev_curr_pair	access:public	signature:() const
+height	misc_helper_stuff/array_2d_helper_class.hpp	/^	u32 height () const$/;"	kind:f	class:array_2d_helper	access:public	signature:() const
+hide_non_affine	gba_specific_stuff/oam_entry_classes.hpp	/^	inline void hide_non_affine ()$/;"	kind:f	class:oam_entry	access:public	signature:()
+horiz_level_block_ids_2d	gba_specific_stuff/block_stuff.thumb.cpp	/^array_2d_helper <u16> horiz_level_block_ids_2d ( block_id_array, $/;"	kind:p	file:	signature:( block_id_array, horiz_level_size_2d )
+horiz_level_size	gba_specific_stuff/block_stuff.hpp	/^static constexpr u32 horiz_level_size = block_id_array_size;$/;"	kind:v
+horiz_level_size_2d	gba_specific_stuff/block_stuff.hpp	/^static constexpr vec2_u32 horiz_level_size_2d $/;"	kind:v
+horiz_level_tile_at	gba_specific_stuff/level_loader_class.hpp	/^inline scr_entry horiz_level_tile_at ( u32 tile_x, u32 tile_y )$/;"	kind:f	signature:( u32 tile_x, u32 tile_y )
+horiz_level_xsize	gba_specific_stuff/block_stuff.hpp	/^static constexpr u32 horiz_level_xsize = block_id_array_size $/;"	kind:v
+horiz_level_ysize	gba_specific_stuff/block_stuff.hpp	/^static constexpr u32 horiz_level_ysize = 0x20;$/;"	kind:v
+ime_disable	gba_specific_stuff/interrupt_stuff.hpp	/^inline void ime_disable ()$/;"	kind:f	signature:()
+ime_enable	gba_specific_stuff/interrupt_stuff.hpp	/^inline void ime_enable ()$/;"	kind:f	signature:()
+in_level_pos	gba_specific_stuff/sprite_class.hpp	/^	vec2_f24p8 in_level_pos;$/;"	kind:m	class:sprite	access:public
+init	misc_helper_stuff/array_2d_helper_class.hpp	/^	void init ( type* s_the_array, const vec2_u32& s_size_2d )$/;"	kind:f	class:array_2d_helper	access:public	signature:( type* s_the_array, const vec2_u32& s_size_2d )
+init	misc_helper_stuff/array_helper_class.hpp	/^	void init ( type* s_the_array, u32 s_size )$/;"	kind:f	class:array_helper	access:public	signature:( type* s_the_array, u32 s_size )
+interrupt_stuff_hpp	gba_specific_stuff/interrupt_stuff.hpp	2;"	kind:d
+intersects_now	misc_helper_stuff/coll_box_class.hpp	/^	inline int intersects_now ( const coll_box& other )$/;"	kind:f	class:coll_box	access:public	signature:( const coll_box& other )
+intersects_now_2	misc_helper_stuff/coll_box_class.hpp	/^	inline int intersects_now_2 ( const coll_box& other )$/;"	kind:f	class:coll_box	access:public	signature:( const coll_box& other )
+irq_com	gba_specific_stuff/interrupt_stuff.hpp	31;"	kind:d
+irq_dma0	gba_specific_stuff/interrupt_stuff.hpp	33;"	kind:d
+irq_dma1	gba_specific_stuff/interrupt_stuff.hpp	34;"	kind:d
+irq_dma2	gba_specific_stuff/interrupt_stuff.hpp	35;"	kind:d
+irq_dma3	gba_specific_stuff/interrupt_stuff.hpp	36;"	kind:d
+irq_gamepak	gba_specific_stuff/interrupt_stuff.hpp	40;"	kind:d
+irq_hblank	gba_specific_stuff/interrupt_stuff.hpp	23;"	kind:d
+irq_init	gba_specific_stuff/interrupt_stuff.hpp	/^void irq_init ();$/;"	kind:p	signature:()
+irq_init	gba_specific_stuff/interrupt_stuff.thumb.cpp	/^void irq_init ()$/;"	kind:f	signature:()
+irq_keypad	gba_specific_stuff/interrupt_stuff.hpp	38;"	kind:d
+irq_mask	gba_specific_stuff/interrupt_stuff.hpp	42;"	kind:d
+irq_timer0	gba_specific_stuff/interrupt_stuff.hpp	26;"	kind:d
+irq_timer1	gba_specific_stuff/interrupt_stuff.hpp	27;"	kind:d
+irq_timer2	gba_specific_stuff/interrupt_stuff.hpp	28;"	kind:d
+irq_timer3	gba_specific_stuff/interrupt_stuff.hpp	29;"	kind:d
+irq_vblank	gba_specific_stuff/interrupt_stuff.hpp	22;"	kind:d
+irq_vcount	gba_specific_stuff/interrupt_stuff.hpp	24;"	kind:d
+isr_funcptr	gba_specific_stuff/interrupt_stuff.hpp	/^typedef void (*isr_funcptr)(void);$/;"	kind:t
+isr_main	gba_specific_stuff/interrupt_stuff.hpp	/^void isr_main () __attribute__((_iwram_code));$/;"	kind:p	signature:()
+isr_main	gba_specific_stuff/isr_main.arm.cpp	/^void isr_main ()$/;"	kind:f	signature:()
+key_a	gba_specific_stuff/button_stuff.hpp	22;"	kind:d
+key_b	gba_specific_stuff/button_stuff.hpp	23;"	kind:d
+key_curr_state	gba_specific_stuff/button_stuff.hpp	/^inline u32 key_curr_state ()$/;"	kind:f	signature:()
+key_down	gba_specific_stuff/button_stuff.hpp	29;"	kind:d
+key_held	gba_specific_stuff/button_stuff.hpp	/^inline u32 key_held ( u32 key )$/;"	kind:f	signature:( u32 key )
+key_hit	gba_specific_stuff/button_stuff.hpp	/^inline u32 key_hit ( u32 key )$/;"	kind:f	signature:( u32 key )
+key_hit_or_held	gba_specific_stuff/button_stuff.hpp	/^inline bool key_hit_or_held ( u32 key )$/;"	kind:f	signature:( u32 key )
+key_is_down	gba_specific_stuff/button_stuff.hpp	/^inline u32 key_is_down ( u32 key )$/;"	kind:f	signature:( u32 key )
+key_is_up	gba_specific_stuff/button_stuff.hpp	/^inline u32 key_is_up ( u32 key )$/;"	kind:f	signature:( u32 key )
+key_l	gba_specific_stuff/button_stuff.hpp	31;"	kind:d
+key_left	gba_specific_stuff/button_stuff.hpp	27;"	kind:d
+key_mask	gba_specific_stuff/button_stuff.hpp	33;"	kind:d
+key_poll	gba_specific_stuff/button_stuff.hpp	/^inline void key_poll ()$/;"	kind:f	signature:()
+key_prev_state	gba_specific_stuff/button_stuff.hpp	/^inline u32 key_prev_state ()$/;"	kind:f	signature:()
+key_r	gba_specific_stuff/button_stuff.hpp	30;"	kind:d
+key_released	gba_specific_stuff/button_stuff.hpp	/^inline u32 key_released ( u32 key )$/;"	kind:f	signature:( u32 key )
+key_right	gba_specific_stuff/button_stuff.hpp	26;"	kind:d
+key_select	gba_specific_stuff/button_stuff.hpp	24;"	kind:d
+key_start	gba_specific_stuff/button_stuff.hpp	25;"	kind:d
+key_test	gba_specific_stuff/button_stuff.hpp	/^void key_test ();$/;"	kind:p	signature:()
+key_transit	gba_specific_stuff/button_stuff.hpp	/^inline u32 key_transit ( u32 key )$/;"	kind:f	signature:( u32 key )
+key_up	gba_specific_stuff/button_stuff.hpp	28;"	kind:d
+key_was_down	gba_specific_stuff/button_stuff.hpp	/^inline u32 key_was_down ( u32 key )$/;"	kind:f	signature:( u32 key )
+key_was_up	gba_specific_stuff/button_stuff.hpp	/^inline u32 key_was_up ( u32 key )$/;"	kind:f	signature:( u32 key )
+left	misc_helper_stuff/coll_box_class.hpp	/^	inline fixed24p8 left () const$/;"	kind:f	class:coll_box	access:public	signature:() const
+level_height_in_tiles	gba_specific_stuff/level_loader_class.hpp	/^inline u32 level_height_in_tiles $/;"	kind:f	signature:( array_2d_helper <u16>& the_block_ids_2d )
+level_loader_class_hpp	gba_specific_stuff/level_loader_class.hpp	2;"	kind:d
+level_width_in_tiles	gba_specific_stuff/level_loader_class.hpp	/^inline u32 level_width_in_tiles $/;"	kind:f	signature:( array_2d_helper <u16>& the_block_ids_2d )
+log_block_stuff	gba_specific_stuff/block_stuff.hpp	/^class log_block_stuff : public block_base_stuff$/;"	kind:c	inherits:block_base_stuff
+log_block_stuff::get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () __attribute__ ((_iwram_code));$/;"	kind:p	class:log_block_stuff	access:public	signature:()
+log_block_stuff::get_metatile_number	gba_specific_stuff/block_stuff.thumb.cpp	/^const u32 log_block_stuff::get_metatile_number ()$/;"	kind:f	class:log_block_stuff	signature:()
+log_block_stuff::metatile_number	gba_specific_stuff/block_stuff.hpp	/^	static const u32 metatile_number = 1;$/;"	kind:m	class:log_block_stuff	access:public
+lut_cos	misc_helper_stuff/trigonometry_funcs.hpp	/^inline s32 lut_cos ( u32 theta )$/;"	kind:f	signature:( u32 theta )
+lut_cos_f24p8	misc_helper_stuff/trigonometry_funcs.hpp	/^inline fixed24p8 lut_cos_f24p8 ( u32 theta )$/;"	kind:f	signature:( u32 theta )
+lut_cos_f8p8	misc_helper_stuff/trigonometry_funcs.hpp	/^inline fixed8p8 lut_cos_f8p8 ( u32 theta )$/;"	kind:f	signature:( u32 theta )
+lut_sin	misc_helper_stuff/trigonometry_funcs.hpp	/^inline s32 lut_sin ( u32 theta )$/;"	kind:f	signature:( u32 theta )
+lut_sin_f24p8	misc_helper_stuff/trigonometry_funcs.hpp	/^inline fixed24p8 lut_sin_f24p8 ( u32 theta )$/;"	kind:f	signature:( u32 theta )
+lut_sin_f8p8	misc_helper_stuff/trigonometry_funcs.hpp	/^inline fixed8p8 lut_sin_f8p8 ( u32 theta )$/;"	kind:f	signature:( u32 theta )
+lut_udiv	gba_specific_stuff/asm_funcs.hpp	/^extern u64 lut_udiv ( u32 num, u32 dem );$/;"	kind:p	signature:( u32 num, u32 dem )
+m3_plot	gba_specific_stuff/bg_reg_stuff.hpp	/^inline void m3_plot ( u32 x, u32 y, u32 color )$/;"	kind:f	signature:( u32 x, u32 y, u32 color )
+m4_line	gba_specific_stuff/bg_reg_stuff.arm.cpp	/^void m4_line ( s32 x0, s32 y0, s32 x1, s32 y1, u32 color_id, u32 page )$/;"	kind:f	signature:( s32 x0, s32 y0, s32 x1, s32 y1, u32 color_id, u32 page )
+m4_line	gba_specific_stuff/bg_reg_stuff.hpp	/^void m4_line ( s32 x0, s32 y0, s32 x1, s32 y1, u32 color_id, u32 page ) $/;"	kind:p	signature:( s32 x0, s32 y0, s32 x1, s32 y1, u32 color_id, u32 page )
+m4_line_old	gba_specific_stuff/bg_reg_stuff.arm.cpp	/^void m4_line_old ( s32 x0, s32 y0, s32 x1, s32 y1, u32 color_id )$/;"	kind:f	signature:( s32 x0, s32 y0, s32 x1, s32 y1, u32 color_id )
+m4_plot	gba_specific_stuff/bg_reg_stuff.hpp	/^inline void m4_plot ( s32 x, s32 y, u32 color_id, u32 page )$/;"	kind:f	signature:( s32 x, s32 y, u32 color_id, u32 page )
+m4_plot_basic	gba_specific_stuff/bg_reg_stuff.hpp	/^inline void m4_plot_basic ( u32 x, u32 y, u16 two_color_ids, u32 page = 0 )$/;"	kind:f	signature:( u32 x, u32 y, u16 two_color_ids, u32 page = 0 )
+main	main.thumb.cpp	/^int main ()$/;"	kind:f	signature:()
+make_f24p8	misc_helper_stuff/fixed_classes.hpp	/^fixed24p8 make_f24p8 ( s32 whole_part, u8 frac_part=0 ) $/;"	kind:p	signature:( s32 whole_part, u8 frac_part=0 )
+make_f24p8	misc_helper_stuff/fixed_classes.thumb.cpp	/^fixed24p8 make_f24p8 ( s32 whole_part, u8 frac_part ) $/;"	kind:f	signature:( s32 whole_part, u8 frac_part )
+make_f8p8	misc_helper_stuff/fixed_classes.hpp	/^fixed8p8 make_f8p8 ( s8 whole_part, u8 frac_part=0 ) $/;"	kind:p	signature:( s8 whole_part, u8 frac_part=0 )
+make_f8p8	misc_helper_stuff/fixed_classes.thumb.cpp	/^fixed8p8 make_f8p8 ( s8 whole_part, u8 frac_part )$/;"	kind:f	signature:( s8 whole_part, u8 frac_part )
+mem_bg_pal	gba_specific_stuff/memory_map.hpp	24;"	kind:d
+mem_ewram	gba_specific_stuff/memory_map.hpp	7;"	kind:d
+mem_io	gba_specific_stuff/memory_map.hpp	12;"	kind:d
+mem_iwram	gba_specific_stuff/memory_map.hpp	8;"	kind:d
+mem_oam	gba_specific_stuff/memory_map.hpp	15;"	kind:d
+mem_obj_pal	gba_specific_stuff/memory_map.hpp	27;"	kind:d
+mem_pal_ram	gba_specific_stuff/memory_map.hpp	13;"	kind:d
+mem_sram	gba_specific_stuff/memory_map.hpp	9;"	kind:d
+mem_vram	gba_specific_stuff/memory_map.hpp	14;"	kind:d
+mem_vram_page_0	gba_specific_stuff/memory_map.hpp	18;"	kind:d
+mem_vram_page_1	gba_specific_stuff/memory_map.hpp	19;"	kind:d
+memcpy32	gba_specific_stuff/asm_funcs.hpp	/^extern void memcpy32 ( void* dst, const void* src, u32 wordcount );$/;"	kind:p	signature:( void* dst, const void* src, u32 wordcount )
+memcpy32	gba_specific_stuff/asm_funcs.hpp	/^inline void memcpy32 ( volatile void* dst, const void* src, $/;"	kind:f	signature:( volatile void* dst, const void* src, u32 wordcount )
+memcpy8	gba_specific_stuff/asm_funcs.hpp	/^extern void memcpy8 ( void* dst, const void* src, u32 bytecount );$/;"	kind:p	signature:( void* dst, const void* src, u32 bytecount )
+memcpy8	gba_specific_stuff/asm_funcs.hpp	/^inline void memcpy8 ( volatile void* dst, const void* src, u32 bytecount )$/;"	kind:f	signature:( volatile void* dst, const void* src, u32 bytecount )
+memfill32	gba_specific_stuff/asm_funcs.hpp	/^extern void memfill32 ( void* dst, u32 src, u32 wordcount );$/;"	kind:p	signature:( void* dst, u32 src, u32 wordcount )
+memfill32	gba_specific_stuff/asm_funcs.hpp	/^inline void memfill32 ( volatile void* dst, u32 src, u32 wordcount )$/;"	kind:f	signature:( volatile void* dst, u32 src, u32 wordcount )
+memfill8	gba_specific_stuff/asm_funcs.hpp	/^extern void memfill8 ( void* dst, u8 src, u32 bytecount );$/;"	kind:p	signature:( void* dst, u8 src, u32 bytecount )
+memfill8	gba_specific_stuff/asm_funcs.hpp	/^inline void memfill8 ( volatile void* dst, u8 src, u32 bytecount )$/;"	kind:f	signature:( volatile void* dst, u8 src, u32 bytecount )
+memory_map_hpp	gba_specific_stuff/memory_map.hpp	2;"	kind:d
+metatile_number	gba_specific_stuff/block_stuff.hpp	/^	static const u32 metatile_number = 0;$/;"	kind:m	class:air_block_stuff	access:public
+metatile_number	gba_specific_stuff/block_stuff.hpp	/^	static const u32 metatile_number = 1;$/;"	kind:m	class:log_block_stuff	access:public
+metatile_number	gba_specific_stuff/block_stuff.hpp	/^	static const u32 metatile_number = 2;$/;"	kind:m	class:wood_block_stuff	access:public
+metatile_number	gba_specific_stuff/block_stuff.hpp	/^	static const u32 metatile_number = 3;$/;"	kind:m	class:qmark_block_stuff	access:public
+metatile_number	gba_specific_stuff/block_stuff.hpp	/^	static const u32 metatile_number = 4;$/;"	kind:m	class:exclam_block_stuff	access:public
+metatile_number	gba_specific_stuff/block_stuff.hpp	/^	static const u32 metatile_number = 5;$/;"	kind:m	class:dud_block_stuff	access:public
+misc_bitwise_funcs_hpp	misc_helper_stuff/misc_bitwise_funcs.hpp	2;"	kind:d
+misc_types_hpp	misc_helper_stuff/misc_types.hpp	2;"	kind:d
+next_debug_f24p8	misc_helper_stuff/debug_vars.hpp	29;"	kind:d
+next_debug_f8p8	misc_helper_stuff/debug_vars.hpp	35;"	kind:d
+next_debug_s32	misc_helper_stuff/debug_vars.hpp	18;"	kind:d
+next_debug_u32	misc_helper_stuff/debug_vars.hpp	23;"	kind:d
+num_pixels_per_tile_row_or_column	gba_specific_stuff/bg_reg_stuff.hpp	/^static const u32 num_pixels_per_tile_row_or_column = 8;$/;"	kind:v
+oam_entry	gba_specific_stuff/oam_entry_classes.hpp	/^class oam_entry$/;"	kind:c
+oam_entry::attr0	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 attr0;$/;"	kind:m	class:oam_entry	access:public
+oam_entry::attr1	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 attr1;$/;"	kind:m	class:oam_entry	access:public
+oam_entry::attr2	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 attr2;$/;"	kind:m	class:oam_entry	access:public
+oam_entry::fill	gba_specific_stuff/oam_entry_classes.hpp	/^	s16 fill;$/;"	kind:m	class:oam_entry	access:public
+oam_entry::get_shape_size	gba_specific_stuff/oam_entry_classes.hpp	/^	shape_size get_shape_size () const;$/;"	kind:p	class:oam_entry	access:public	signature:() const
+oam_entry::get_shape_size	gba_specific_stuff/oam_entry_classes.thumb.cpp	/^oam_entry::shape_size oam_entry::get_shape_size () const$/;"	kind:f	class:oam_entry	signature:() const
+oam_entry::get_shape_size_as_vec2	gba_specific_stuff/oam_entry_classes.hpp	/^	vec2_u32 get_shape_size_as_vec2 () const;$/;"	kind:p	class:oam_entry	access:public	signature:() const
+oam_entry::get_shape_size_as_vec2	gba_specific_stuff/oam_entry_classes.thumb.cpp	/^vec2_u32 oam_entry::get_shape_size_as_vec2 () const$/;"	kind:f	class:oam_entry	signature:() const
+oam_entry::get_x_coord	gba_specific_stuff/oam_entry_classes.hpp	/^	s32 get_x_coord () const$/;"	kind:f	class:oam_entry	access:public	signature:() const
+oam_entry::get_y_coord	gba_specific_stuff/oam_entry_classes.hpp	/^	s32 get_y_coord () const$/;"	kind:f	class:oam_entry	access:public	signature:() const
+oam_entry::hide_non_affine	gba_specific_stuff/oam_entry_classes.hpp	/^	inline void hide_non_affine ()$/;"	kind:f	class:oam_entry	access:public	signature:()
+oam_entry::set_shape_size	gba_specific_stuff/oam_entry_classes.hpp	/^	void set_shape_size ( shape_size n_shape_size );$/;"	kind:p	class:oam_entry	access:public	signature:( shape_size n_shape_size )
+oam_entry::set_shape_size	gba_specific_stuff/oam_entry_classes.thumb.cpp	/^void oam_entry::set_shape_size ( oam_entry::shape_size n_shape_size )$/;"	kind:f	class:oam_entry	signature:( oam_entry::shape_size n_shape_size )
+oam_entry::set_shape_size_with_vec2	gba_specific_stuff/oam_entry_classes.hpp	/^	void set_shape_size_with_vec2 ( const vec2_u32& n_shape_size );$/;"	kind:p	class:oam_entry	access:public	signature:( const vec2_u32& n_shape_size )
+oam_entry::set_shape_size_with_vec2	gba_specific_stuff/oam_entry_classes.thumb.cpp	/^void oam_entry::set_shape_size_with_vec2 ( const vec2_u32& n_shape_size )$/;"	kind:f	class:oam_entry	signature:( const vec2_u32& n_shape_size )
+oam_entry::set_tile_number	gba_specific_stuff/oam_entry_classes.hpp	/^	inline void set_tile_number ( u32 n_tile )$/;"	kind:f	class:oam_entry	access:public	signature:( u32 n_tile )
+oam_entry::set_x_coord	gba_specific_stuff/oam_entry_classes.hpp	/^	void set_x_coord ( s32 n_x_coord )$/;"	kind:f	class:oam_entry	access:public	signature:( s32 n_x_coord )
+oam_entry::set_y_coord	gba_specific_stuff/oam_entry_classes.hpp	/^	void set_y_coord ( s32 n_y_coord )$/;"	kind:f	class:oam_entry	access:public	signature:( s32 n_y_coord )
+oam_entry::shape_size	gba_specific_stuff/oam_entry_classes.hpp	/^	enum shape_size { ss_8x8, ss_16x16, ss_32x32, ss_64x64, ss_16x8, $/;"	kind:g	class:oam_entry	access:public
+oam_entry::show_non_affine	gba_specific_stuff/oam_entry_classes.hpp	/^	inline void show_non_affine ()$/;"	kind:f	class:oam_entry	access:public	signature:()
+oam_entry::ss_16x16	gba_specific_stuff/oam_entry_classes.hpp	/^	enum shape_size { ss_8x8, ss_16x16, ss_32x32, ss_64x64, ss_16x8, $/;"	kind:e	enum:oam_entry::shape_size
+oam_entry::ss_16x32	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x8, ss_32x16, ss_64x32, ss_8x16, ss_8x32, ss_16x32, $/;"	kind:e	enum:oam_entry::shape_size
+oam_entry::ss_16x8	gba_specific_stuff/oam_entry_classes.hpp	/^	enum shape_size { ss_8x8, ss_16x16, ss_32x32, ss_64x64, ss_16x8, $/;"	kind:e	enum:oam_entry::shape_size
+oam_entry::ss_32x16	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x8, ss_32x16, ss_64x32, ss_8x16, ss_8x32, ss_16x32, $/;"	kind:e	enum:oam_entry::shape_size
+oam_entry::ss_32x32	gba_specific_stuff/oam_entry_classes.hpp	/^	enum shape_size { ss_8x8, ss_16x16, ss_32x32, ss_64x64, ss_16x8, $/;"	kind:e	enum:oam_entry::shape_size
+oam_entry::ss_32x64	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x64 };$/;"	kind:e	enum:oam_entry::shape_size
+oam_entry::ss_32x8	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x8, ss_32x16, ss_64x32, ss_8x16, ss_8x32, ss_16x32, $/;"	kind:e	enum:oam_entry::shape_size
+oam_entry::ss_64x32	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x8, ss_32x16, ss_64x32, ss_8x16, ss_8x32, ss_16x32, $/;"	kind:e	enum:oam_entry::shape_size
+oam_entry::ss_64x64	gba_specific_stuff/oam_entry_classes.hpp	/^	enum shape_size { ss_8x8, ss_16x16, ss_32x32, ss_64x64, ss_16x8, $/;"	kind:e	enum:oam_entry::shape_size
+oam_entry::ss_8x16	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x8, ss_32x16, ss_64x32, ss_8x16, ss_8x32, ss_16x32, $/;"	kind:e	enum:oam_entry::shape_size
+oam_entry::ss_8x32	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x8, ss_32x16, ss_64x32, ss_8x16, ss_8x32, ss_16x32, $/;"	kind:e	enum:oam_entry::shape_size
+oam_entry::ss_8x8	gba_specific_stuff/oam_entry_classes.hpp	/^	enum shape_size { ss_8x8, ss_16x16, ss_32x32, ss_64x64, ss_16x8, $/;"	kind:e	enum:oam_entry::shape_size
+oam_entry_affine	gba_specific_stuff/oam_entry_classes.hpp	/^class oam_entry_affine$/;"	kind:c
+oam_entry_affine::fill0	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 fill0 [fill_size];$/;"	kind:m	class:oam_entry_affine	access:public
+oam_entry_affine::fill1	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 fill1 [fill_size];$/;"	kind:m	class:oam_entry_affine	access:public
+oam_entry_affine::fill2	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 fill2 [fill_size];$/;"	kind:m	class:oam_entry_affine	access:public
+oam_entry_affine::fill3	gba_specific_stuff/oam_entry_classes.hpp	/^	u16 fill3 [fill_size];$/;"	kind:m	class:oam_entry_affine	access:public
+oam_entry_affine::fill_size	gba_specific_stuff/oam_entry_classes.hpp	/^	static const u32 fill_size = 3;$/;"	kind:m	class:oam_entry_affine	access:public
+oam_entry_affine::pa	gba_specific_stuff/oam_entry_classes.hpp	/^	fixed8p8 pa;$/;"	kind:m	class:oam_entry_affine	access:public
+oam_entry_affine::pb	gba_specific_stuff/oam_entry_classes.hpp	/^	fixed8p8 pb;$/;"	kind:m	class:oam_entry_affine	access:public
+oam_entry_affine::pc	gba_specific_stuff/oam_entry_classes.hpp	/^	fixed8p8 pc;$/;"	kind:m	class:oam_entry_affine	access:public
+oam_entry_affine::pd	gba_specific_stuff/oam_entry_classes.hpp	/^	fixed8p8 pd;$/;"	kind:m	class:oam_entry_affine	access:public
+oam_entry_classes_hpp	gba_specific_stuff/oam_entry_classes.hpp	2;"	kind:d
+oam_entry_defines_hpp	gba_specific_stuff/oam_entry_defines.hpp	2;"	kind:d
+oam_mirror	gba_specific_stuff/oam_entry_classes.thumb.cpp	/^oam_entry oam_mirror [oam_mirror_size];$/;"	kind:v
+oam_mirror_aff	gba_specific_stuff/oam_entry_classes.hpp	19;"	kind:d
+oam_mirror_aff_size	gba_specific_stuff/oam_entry_classes.hpp	/^static const u32 oam_mirror_aff_size = 32;$/;"	kind:v
+oam_mirror_size	gba_specific_stuff/oam_entry_classes.hpp	/^static const u32 oam_mirror_size = 128;$/;"	kind:v
+obj_attr0_affine_mask	gba_specific_stuff/oam_entry_defines.hpp	20;"	kind:d
+obj_attr0_affine_off	gba_specific_stuff/oam_entry_defines.hpp	17;"	kind:d
+obj_attr0_affine_on	gba_specific_stuff/oam_entry_defines.hpp	18;"	kind:d
+obj_attr0_affine_shift	gba_specific_stuff/oam_entry_defines.hpp	21;"	kind:d
+obj_attr0_disable_mask	gba_specific_stuff/oam_entry_defines.hpp	36;"	kind:d
+obj_attr0_disable_off	gba_specific_stuff/oam_entry_defines.hpp	33;"	kind:d
+obj_attr0_disable_on	gba_specific_stuff/oam_entry_defines.hpp	34;"	kind:d
+obj_attr0_disable_shift	gba_specific_stuff/oam_entry_defines.hpp	37;"	kind:d
+obj_attr0_double_size_mask	gba_specific_stuff/oam_entry_defines.hpp	28;"	kind:d
+obj_attr0_double_size_off	gba_specific_stuff/oam_entry_defines.hpp	25;"	kind:d
+obj_attr0_double_size_on	gba_specific_stuff/oam_entry_defines.hpp	26;"	kind:d
+obj_attr0_double_size_shift	gba_specific_stuff/oam_entry_defines.hpp	29;"	kind:d
+obj_attr0_mode_mask	gba_specific_stuff/oam_entry_defines.hpp	45;"	kind:d
+obj_attr0_mode_normal	gba_specific_stuff/oam_entry_defines.hpp	41;"	kind:d
+obj_attr0_mode_objwindow	gba_specific_stuff/oam_entry_defines.hpp	43;"	kind:d
+obj_attr0_mode_semitransparent	gba_specific_stuff/oam_entry_defines.hpp	42;"	kind:d
+obj_attr0_mode_shift	gba_specific_stuff/oam_entry_defines.hpp	46;"	kind:d
+obj_attr0_mosaic_mask	gba_specific_stuff/oam_entry_defines.hpp	53;"	kind:d
+obj_attr0_mosaic_off	gba_specific_stuff/oam_entry_defines.hpp	50;"	kind:d
+obj_attr0_mosaic_on	gba_specific_stuff/oam_entry_defines.hpp	51;"	kind:d
+obj_attr0_mosaic_shift	gba_specific_stuff/oam_entry_defines.hpp	54;"	kind:d
+obj_attr0_pal16	gba_specific_stuff/oam_entry_defines.hpp	59;"	kind:d
+obj_attr0_pal256	gba_specific_stuff/oam_entry_defines.hpp	60;"	kind:d
+obj_attr0_pal_mask	gba_specific_stuff/oam_entry_defines.hpp	62;"	kind:d
+obj_attr0_pal_shift	gba_specific_stuff/oam_entry_defines.hpp	63;"	kind:d
+obj_attr0_shape_horizontal	gba_specific_stuff/oam_entry_defines.hpp	68;"	kind:d
+obj_attr0_shape_mask	gba_specific_stuff/oam_entry_defines.hpp	71;"	kind:d
+obj_attr0_shape_shift	gba_specific_stuff/oam_entry_defines.hpp	72;"	kind:d
+obj_attr0_shape_square	gba_specific_stuff/oam_entry_defines.hpp	67;"	kind:d
+obj_attr0_shape_vertical	gba_specific_stuff/oam_entry_defines.hpp	69;"	kind:d
+obj_attr0_y_coord	gba_specific_stuff/oam_entry_defines.hpp	10;"	kind:d
+obj_attr0_y_coord_mask	gba_specific_stuff/oam_entry_defines.hpp	12;"	kind:d
+obj_attr0_y_coord_shift	gba_specific_stuff/oam_entry_defines.hpp	13;"	kind:d
+obj_attr1_affine_param_slot	gba_specific_stuff/oam_entry_defines.hpp	88;"	kind:d
+obj_attr1_affine_param_slot_mask	gba_specific_stuff/oam_entry_defines.hpp	90;"	kind:d
+obj_attr1_affine_param_slot_shift	gba_specific_stuff/oam_entry_defines.hpp	91;"	kind:d
+obj_attr1_hflip_mask	gba_specific_stuff/oam_entry_defines.hpp	98;"	kind:d
+obj_attr1_hflip_off	gba_specific_stuff/oam_entry_defines.hpp	95;"	kind:d
+obj_attr1_hflip_on	gba_specific_stuff/oam_entry_defines.hpp	96;"	kind:d
+obj_attr1_hflip_shift	gba_specific_stuff/oam_entry_defines.hpp	99;"	kind:d
+obj_attr1_size_0	gba_specific_stuff/oam_entry_defines.hpp	111;"	kind:d
+obj_attr1_size_1	gba_specific_stuff/oam_entry_defines.hpp	112;"	kind:d
+obj_attr1_size_2	gba_specific_stuff/oam_entry_defines.hpp	113;"	kind:d
+obj_attr1_size_3	gba_specific_stuff/oam_entry_defines.hpp	114;"	kind:d
+obj_attr1_size_mask	gba_specific_stuff/oam_entry_defines.hpp	116;"	kind:d
+obj_attr1_size_shift	gba_specific_stuff/oam_entry_defines.hpp	117;"	kind:d
+obj_attr1_vflip_mask	gba_specific_stuff/oam_entry_defines.hpp	106;"	kind:d
+obj_attr1_vflip_off	gba_specific_stuff/oam_entry_defines.hpp	103;"	kind:d
+obj_attr1_vflip_on	gba_specific_stuff/oam_entry_defines.hpp	104;"	kind:d
+obj_attr1_vflip_shift	gba_specific_stuff/oam_entry_defines.hpp	107;"	kind:d
+obj_attr1_x_coord	gba_specific_stuff/oam_entry_defines.hpp	81;"	kind:d
+obj_attr1_x_coord_mask	gba_specific_stuff/oam_entry_defines.hpp	83;"	kind:d
+obj_attr1_x_coord_shift	gba_specific_stuff/oam_entry_defines.hpp	84;"	kind:d
+obj_attr2_bg_prio	gba_specific_stuff/oam_entry_defines.hpp	133;"	kind:d
+obj_attr2_bg_prio_0	gba_specific_stuff/oam_entry_defines.hpp	135;"	kind:d
+obj_attr2_bg_prio_1	gba_specific_stuff/oam_entry_defines.hpp	136;"	kind:d
+obj_attr2_bg_prio_2	gba_specific_stuff/oam_entry_defines.hpp	137;"	kind:d
+obj_attr2_bg_prio_3	gba_specific_stuff/oam_entry_defines.hpp	138;"	kind:d
+obj_attr2_bg_prio_mask	gba_specific_stuff/oam_entry_defines.hpp	140;"	kind:d
+obj_attr2_bg_prio_shift	gba_specific_stuff/oam_entry_defines.hpp	141;"	kind:d
+obj_attr2_pal_num	gba_specific_stuff/oam_entry_defines.hpp	145;"	kind:d
+obj_attr2_pal_num_mask	gba_specific_stuff/oam_entry_defines.hpp	147;"	kind:d
+obj_attr2_pal_num_shift	gba_specific_stuff/oam_entry_defines.hpp	148;"	kind:d
+obj_attr2_tile_number	gba_specific_stuff/oam_entry_defines.hpp	126;"	kind:d
+obj_attr2_tile_number_mask	gba_specific_stuff/oam_entry_defines.hpp	128;"	kind:d
+obj_attr2_tile_number_shift	gba_specific_stuff/oam_entry_defines.hpp	129;"	kind:d
+obj_pal_ram	gba_specific_stuff/bg_reg_stuff.hpp	102;"	kind:d
+obj_pal_ram_size	gba_specific_stuff/bg_reg_stuff.hpp	/^static const u32 obj_pal_ram_size = 0x200;$/;"	kind:v
+obj_tile_vram	gba_specific_stuff/bg_reg_stuff.hpp	39;"	kind:d
+operator !=	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator != ( const fixed24p8& to_cmp ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_cmp ) const
+operator !=	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator != ( const fixed8p8& to_cmp ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_cmp ) const
+operator !=	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed24p8::operator != ( const fixed24p8& to_cmp ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_cmp ) const
+operator !=	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed8p8::operator != ( const fixed8p8& to_cmp ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_cmp ) const
+operator !=	misc_helper_stuff/vec2_class.hpp	/^	inline bool operator != ( const vec2 <fixed24p8>& to_cmp ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_cmp ) const
+operator !=	misc_helper_stuff/vec2_class.hpp	/^	inline bool operator != ( const vec2 <fixed8p8>& to_cmp ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_cmp ) const
+operator !=	misc_helper_stuff/vec2_class.hpp	/^	inline bool operator != ( const vec2 <type>& to_cmp ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_cmp ) const
+operator *	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed24p8 operator * ( const fixed8p8& to_mul ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed8p8& to_mul ) const
+operator *	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8 fixed24p8::operator * ( const fixed8p8& to_mul ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed8p8& to_mul ) const
+operator *	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8 operator * ( const fixed8p8& a, const fixed8p8& b )$/;"	kind:f	signature:( const fixed8p8& a, const fixed8p8& b )
+operator *	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <fixed24p8> operator * ( const fixed24p8& scale ) const$/;"	kind:f	class:vec2	access:public	signature:( const fixed24p8& scale ) const
+operator *	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <fixed8p8> operator * ( const fixed8p8& scale ) const$/;"	kind:f	class:vec2	access:public	signature:( const fixed8p8& scale ) const
+operator *	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <type> operator * ( const type& scale ) const$/;"	kind:f	class:vec2	access:public	signature:( const type& scale ) const
+operator *	misc_helper_stuff/vec2_class.hpp	/^inline vec2 <type> operator * ( const type& scale, $/;"	kind:f	signature:( const type& scale, const vec2 <type>& vec2_to_mul )
+operator *=	misc_helper_stuff/fixed_classes.hpp	/^	inline void operator *= ( const fixed8p8& to_mul );$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed8p8& to_mul )
+operator *=	misc_helper_stuff/fixed_classes.hpp	/^inline void fixed24p8::operator *= ( const fixed8p8& to_mul )$/;"	kind:f	class:fixed24p8	signature:( const fixed8p8& to_mul )
+operator *=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator *= ( const type& scale )$/;"	kind:f	class:vec2	access:public	signature:( const type& scale )
+operator +	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed24p8 operator + ( const fixed24p8& to_add ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_add ) const
+operator +	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed8p8 operator + ( const fixed8p8& to_add ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_add ) const
+operator +	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8 fixed24p8::operator + ( const fixed24p8& to_add ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_add ) const
+operator +	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8 operator + ( const fixed8p8& a, const fixed24p8& b )$/;"	kind:f	signature:( const fixed8p8& a, const fixed24p8& b )
+operator +	misc_helper_stuff/fixed_classes.hpp	/^inline fixed8p8 fixed8p8::operator + ( const fixed8p8& to_add ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_add ) const
+operator +	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <fixed24p8> operator + ( const vec2 <fixed24p8>& to_add ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_add ) const
+operator +	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <fixed8p8> operator + ( const vec2 <fixed8p8>& to_add ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_add ) const
+operator +	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <type> operator + ( const vec2 <type>& to_add ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_add ) const
+operator +	misc_helper_stuff/vec2_class.hpp	/^inline vec2_f24p8 operator + ( const vec2_f8p8&a, const vec2_f24p8& b )$/;"	kind:f	signature:( const vec2_f8p8&a, const vec2_f24p8& b )
+operator +=	misc_helper_stuff/fixed_classes.hpp	/^	inline void operator += ( const fixed24p8& to_add );$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_add )
+operator +=	misc_helper_stuff/fixed_classes.hpp	/^	inline void operator += ( const fixed8p8& to_add );$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_add )
+operator +=	misc_helper_stuff/fixed_classes.hpp	/^inline void fixed24p8::operator += ( const fixed24p8& to_add )$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_add )
+operator +=	misc_helper_stuff/fixed_classes.hpp	/^inline void fixed8p8::operator += ( const fixed8p8& to_add )$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_add )
+operator +=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator += ( const vec2 <fixed24p8>& to_add )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_add )
+operator +=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator += ( const vec2 <fixed8p8>& to_add )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_add )
+operator +=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator += ( const vec2 <type>& to_add )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_add )
+operator -	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed24p8 operator - ( const fixed24p8& to_sub ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_sub ) const
+operator -	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed8p8 operator - ( const fixed8p8& to_sub ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_sub ) const
+operator -	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8 fixed24p8::operator - ( const fixed24p8& to_sub ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_sub ) const
+operator -	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8 operator - ( const fixed24p8& a )$/;"	kind:f	signature:( const fixed24p8& a )
+operator -	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8 operator - ( const fixed8p8& a, const fixed24p8& b )$/;"	kind:f	signature:( const fixed8p8& a, const fixed24p8& b )
+operator -	misc_helper_stuff/fixed_classes.hpp	/^inline fixed8p8 fixed8p8::operator - ( const fixed8p8& to_sub ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_sub ) const
+operator -	misc_helper_stuff/fixed_classes.hpp	/^inline fixed8p8 operator - ( const fixed8p8& a )$/;"	kind:f	signature:( const fixed8p8& a )
+operator -	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <fixed24p8> operator - ( const vec2 <fixed24p8>& to_sub ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_sub ) const
+operator -	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <fixed8p8> operator - ( const vec2 <fixed8p8>& to_sub ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_sub ) const
+operator -	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <type> operator - ( const vec2 <type>& to_sub ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_sub ) const
+operator -	misc_helper_stuff/vec2_class.hpp	/^inline vec2_f24p8 operator - ( const vec2_f8p8&a, const vec2_f24p8& b )$/;"	kind:f	signature:( const vec2_f8p8&a, const vec2_f24p8& b )
+operator -=	misc_helper_stuff/fixed_classes.hpp	/^	inline void operator -= ( const fixed24p8& to_sub );$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_sub )
+operator -=	misc_helper_stuff/fixed_classes.hpp	/^	inline void operator -= ( const fixed8p8& to_sub );$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_sub )
+operator -=	misc_helper_stuff/fixed_classes.hpp	/^inline void fixed24p8::operator -= ( const fixed24p8& to_sub )$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_sub )
+operator -=	misc_helper_stuff/fixed_classes.hpp	/^inline void fixed8p8::operator -= ( const fixed8p8& to_sub )$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_sub )
+operator -=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator -= ( const vec2 <fixed24p8>& to_sub )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_sub )
+operator -=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator -= ( const vec2 <fixed8p8>& to_sub )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_sub )
+operator -=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator -= ( const vec2 <type>& to_sub )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_sub )
+operator /	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed24p8 operator \/ ( const fixed8p8& den ) const$/;"	kind:f	class:fixed24p8	access:public	signature:( const fixed8p8& den ) const
+operator /=	misc_helper_stuff/fixed_classes.hpp	/^	inline void operator \/= ( const fixed8p8& den )$/;"	kind:f	class:fixed24p8	access:public	signature:( const fixed8p8& den )
+operator <	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator < ( const fixed24p8& to_cmp ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_cmp ) const
+operator <	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator < ( const fixed8p8& to_cmp ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_cmp ) const
+operator <	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed24p8::operator < ( const fixed24p8& to_cmp ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_cmp ) const
+operator <	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed8p8::operator < ( const fixed8p8& to_cmp ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_cmp ) const
+operator <=	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator <= ( const fixed24p8& to_cmp ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_cmp ) const
+operator <=	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator <= ( const fixed8p8& to_cmp ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_cmp ) const
+operator <=	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed24p8::operator <= ( const fixed24p8& to_cmp ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_cmp ) const
+operator <=	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed8p8::operator <= ( const fixed8p8& to_cmp ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_cmp ) const
+operator =	misc_helper_stuff/array_2d_helper_class.hpp	/^	void operator = ( array_2d_helper <type>& to_copy )$/;"	kind:f	class:array_2d_helper	access:public	signature:( array_2d_helper <type>& to_copy )
+operator =	misc_helper_stuff/array_helper_class.hpp	/^	void operator = ( array_helper <type>& to_copy )$/;"	kind:f	class:array_helper	access:public	signature:( array_helper <type>& to_copy )
+operator =	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed24p8& operator = ( const fixed24p8& to_copy );$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_copy )
+operator =	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed24p8& operator = ( s32 to_copy );$/;"	kind:p	class:fixed24p8	access:public	signature:( s32 to_copy )
+operator =	misc_helper_stuff/fixed_classes.hpp	/^	inline fixed8p8& operator = ( const fixed8p8& to_copy );$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_copy )
+operator =	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8& fixed24p8::operator = ( const fixed24p8& to_copy )$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_copy )
+operator =	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8& fixed24p8::operator = ( s32 to_copy )$/;"	kind:f	class:fixed24p8	signature:( s32 to_copy )
+operator =	misc_helper_stuff/fixed_classes.hpp	/^inline fixed8p8& fixed8p8::operator = ( const fixed8p8& to_copy )$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_copy )
+operator =	misc_helper_stuff/vec2_class.hpp	/^	inline void operator = ( const vec2 <fixed24p8>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_copy )
+operator =	misc_helper_stuff/vec2_class.hpp	/^	inline void operator = ( const vec2 <fixed8p8>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_copy )
+operator =	misc_helper_stuff/vec2_class.hpp	/^	inline void operator = ( const vec2 <type>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_copy )
+operator =	misc_helper_stuff/vec2_class.hpp	/^	inline void operator = ( const vec2_s16& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2_s16& to_copy )
+operator =	misc_helper_stuff/vec2_class.hpp	/^	inline void operator = ( const vec2_s32& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2_s32& to_copy )
+operator ==	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator == ( const fixed24p8& to_cmp ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_cmp ) const
+operator ==	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator == ( const fixed8p8& to_cmp ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_cmp ) const
+operator ==	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed24p8::operator == ( const fixed24p8& to_cmp ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_cmp ) const
+operator ==	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed8p8::operator == ( const fixed8p8& to_cmp ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_cmp ) const
+operator ==	misc_helper_stuff/vec2_class.hpp	/^	inline bool operator == ( const vec2 <fixed24p8>& to_cmp ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_cmp ) const
+operator ==	misc_helper_stuff/vec2_class.hpp	/^	inline bool operator == ( const vec2 <fixed8p8>& to_cmp ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_cmp ) const
+operator ==	misc_helper_stuff/vec2_class.hpp	/^	inline bool operator == ( const vec2 <type>& to_cmp ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_cmp ) const
+operator >	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator > ( const fixed24p8& to_cmp ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_cmp ) const
+operator >	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator > ( const fixed8p8& to_cmp ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_cmp ) const
+operator >	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed24p8::operator > ( const fixed24p8& to_cmp ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_cmp ) const
+operator >	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed8p8::operator > ( const fixed8p8& to_cmp ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_cmp ) const
+operator >=	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator >= ( const fixed24p8& to_cmp ) const;$/;"	kind:p	class:fixed24p8	access:public	signature:( const fixed24p8& to_cmp ) const
+operator >=	misc_helper_stuff/fixed_classes.hpp	/^	inline bool operator >= ( const fixed8p8& to_cmp ) const;$/;"	kind:p	class:fixed8p8	access:public	signature:( const fixed8p8& to_cmp ) const
+operator >=	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed24p8::operator >= ( const fixed24p8& to_cmp ) const$/;"	kind:f	class:fixed24p8	signature:( const fixed24p8& to_cmp ) const
+operator >=	misc_helper_stuff/fixed_classes.hpp	/^inline bool fixed8p8::operator >= ( const fixed8p8& to_cmp ) const$/;"	kind:f	class:fixed8p8	signature:( const fixed8p8& to_cmp ) const
+operator fixed24p8	misc_helper_stuff/fixed_classes.hpp	/^	inline operator fixed24p8 () const;$/;"	kind:p	class:fixed8p8	access:public	signature:() const
+operator fixed24p8	misc_helper_stuff/fixed_classes.hpp	/^inline fixed8p8::operator fixed24p8 () const$/;"	kind:f	class:fixed8p8	signature:() const
+operator fixed8p8	misc_helper_stuff/fixed_classes.hpp	/^	inline operator fixed8p8 () const;$/;"	kind:p	class:fixed24p8	access:public	signature:() const
+operator fixed8p8	misc_helper_stuff/fixed_classes.hpp	/^inline fixed24p8::operator fixed8p8 () const$/;"	kind:f	class:fixed24p8	signature:() const
+operator vec2 <fixed24p8>	misc_helper_stuff/vec2_class.hpp	/^	inline operator vec2 <fixed24p8> () const;$/;"	kind:p	class:vec2	access:public	signature:() const
+operator vec2 <fixed24p8>	misc_helper_stuff/vec2_class.hpp	/^inline vec2 <fixed8p8>::operator vec2 <fixed24p8> () const$/;"	kind:f	class:vec2	signature:() const
+operator vec2 <type>	misc_helper_stuff/prev_curr_pair_class.hpp	/^	inline operator vec2 <type> () const$/;"	kind:f	struct:prev_curr_pair	access:public	signature:() const
+pa	gba_specific_stuff/oam_entry_classes.hpp	/^	fixed8p8 pa;$/;"	kind:m	class:oam_entry_affine	access:public
+pal_ram_size	gba_specific_stuff/bg_reg_stuff.hpp	/^static const u32 pal_ram_size = 0x200;$/;"	kind:v
+pb	gba_specific_stuff/oam_entry_classes.hpp	/^	fixed8p8 pb;$/;"	kind:m	class:oam_entry_affine	access:public
+pc	gba_specific_stuff/oam_entry_classes.hpp	/^	fixed8p8 pc;$/;"	kind:m	class:oam_entry_affine	access:public
+pd	gba_specific_stuff/oam_entry_classes.hpp	/^	fixed8p8 pd;$/;"	kind:m	class:oam_entry_affine	access:public
+pos	misc_helper_stuff/coll_box_class.hpp	/^	vec2_f24p8 pos;$/;"	kind:m	class:coll_box	access:public
+prev	misc_helper_stuff/prev_curr_pair_class.hpp	/^	type prev, curr;$/;"	kind:m	struct:prev_curr_pair	access:public
+prev_curr_pair	misc_helper_stuff/prev_curr_pair_class.hpp	/^struct prev_curr_pair$/;"	kind:s
+prev_curr_pair::back_up	misc_helper_stuff/prev_curr_pair_class.hpp	/^	inline void back_up ()$/;"	kind:f	struct:prev_curr_pair	access:public	signature:()
+prev_curr_pair::back_up_and_update	misc_helper_stuff/prev_curr_pair_class.hpp	/^	inline void back_up_and_update ( const type& n_curr )$/;"	kind:f	struct:prev_curr_pair	access:public	signature:( const type& n_curr )
+prev_curr_pair::curr	misc_helper_stuff/prev_curr_pair_class.hpp	/^	type prev, curr;$/;"	kind:m	struct:prev_curr_pair	access:public
+prev_curr_pair::has_changed	misc_helper_stuff/prev_curr_pair_class.hpp	/^	inline bool has_changed () const$/;"	kind:f	struct:prev_curr_pair	access:public	signature:() const
+prev_curr_pair::operator vec2 <type>	misc_helper_stuff/prev_curr_pair_class.hpp	/^	inline operator vec2 <type> () const$/;"	kind:f	struct:prev_curr_pair	access:public	signature:() const
+prev_curr_pair::prev	misc_helper_stuff/prev_curr_pair_class.hpp	/^	type prev, curr;$/;"	kind:m	struct:prev_curr_pair	access:public
+prev_curr_pair_class_hpp	misc_helper_stuff/prev_curr_pair_class.hpp	2;"	kind:d
+qmark_block_stuff	gba_specific_stuff/block_stuff.hpp	/^class qmark_block_stuff : public block_base_stuff$/;"	kind:c	inherits:block_base_stuff
+qmark_block_stuff::get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () __attribute__ ((_iwram_code));$/;"	kind:p	class:qmark_block_stuff	access:public	signature:()
+qmark_block_stuff::get_metatile_number	gba_specific_stuff/block_stuff.thumb.cpp	/^const u32 qmark_block_stuff::get_metatile_number ()$/;"	kind:f	class:qmark_block_stuff	signature:()
+qmark_block_stuff::metatile_number	gba_specific_stuff/block_stuff.hpp	/^	static const u32 metatile_number = 3;$/;"	kind:m	class:qmark_block_stuff	access:public
+reg_bg0cnt	gba_specific_stuff/bg_reg_stuff.hpp	120;"	kind:d
+reg_bg1cnt	gba_specific_stuff/bg_reg_stuff.hpp	121;"	kind:d
+reg_bg2cnt	gba_specific_stuff/bg_reg_stuff.hpp	122;"	kind:d
+reg_bg3cnt	gba_specific_stuff/bg_reg_stuff.hpp	123;"	kind:d
+reg_bgcnt	gba_specific_stuff/bg_reg_stuff.hpp	119;"	kind:d
+reg_bghofs_n	gba_specific_stuff/bg_reg_stuff.hpp	128;"	kind:d
+reg_bgofs	gba_specific_stuff/bg_reg_stuff.hpp	126;"	kind:d
+reg_bgvofs_n	gba_specific_stuff/bg_reg_stuff.hpp	129;"	kind:d
+reg_dispcnt	gba_specific_stuff/bg_reg_stuff.hpp	114;"	kind:d
+reg_dispstat	gba_specific_stuff/bg_reg_stuff.hpp	115;"	kind:d
+reg_dma0cnt	gba_specific_stuff/dma_stuff.hpp	33;"	kind:d
+reg_dma0dad	gba_specific_stuff/dma_stuff.hpp	22;"	kind:d
+reg_dma0sad	gba_specific_stuff/dma_stuff.hpp	11;"	kind:d
+reg_dma1cnt	gba_specific_stuff/dma_stuff.hpp	35;"	kind:d
+reg_dma1dad	gba_specific_stuff/dma_stuff.hpp	24;"	kind:d
+reg_dma1sad	gba_specific_stuff/dma_stuff.hpp	13;"	kind:d
+reg_dma2cnt	gba_specific_stuff/dma_stuff.hpp	37;"	kind:d
+reg_dma2dad	gba_specific_stuff/dma_stuff.hpp	26;"	kind:d
+reg_dma2sad	gba_specific_stuff/dma_stuff.hpp	15;"	kind:d
+reg_dma3cnt	gba_specific_stuff/dma_stuff.hpp	39;"	kind:d
+reg_dma3dad	gba_specific_stuff/dma_stuff.hpp	28;"	kind:d
+reg_dma3sad	gba_specific_stuff/dma_stuff.hpp	17;"	kind:d
+reg_fifo_a_h	gba_specific_stuff/sound_reg_stuff.hpp	21;"	kind:d
+reg_fifo_a_l	gba_specific_stuff/sound_reg_stuff.hpp	19;"	kind:d
+reg_fifo_b_h	gba_specific_stuff/sound_reg_stuff.hpp	27;"	kind:d
+reg_fifo_b_l	gba_specific_stuff/sound_reg_stuff.hpp	25;"	kind:d
+reg_ie	gba_specific_stuff/interrupt_stuff.hpp	12;"	kind:d
+reg_if	gba_specific_stuff/interrupt_stuff.hpp	15;"	kind:d
+reg_ifbios	gba_specific_stuff/interrupt_stuff.hpp	69;"	kind:d
+reg_ime	gba_specific_stuff/interrupt_stuff.hpp	18;"	kind:d
+reg_isr_main	gba_specific_stuff/interrupt_stuff.hpp	64;"	kind:d
+reg_keycnt	gba_specific_stuff/button_stuff.hpp	19;"	kind:d
+reg_keyinput	gba_specific_stuff/button_stuff.hpp	16;"	kind:d
+reg_soundcnt_h	gba_specific_stuff/sound_reg_stuff.hpp	12;"	kind:d
+reg_soundcnt_x	gba_specific_stuff/sound_reg_stuff.hpp	15;"	kind:d
+reg_tm0cnt_h	gba_specific_stuff/timer_stuff.hpp	16;"	kind:d
+reg_tm0cnt_l	gba_specific_stuff/timer_stuff.hpp	10;"	kind:d
+reg_tm1cnt_h	gba_specific_stuff/timer_stuff.hpp	17;"	kind:d
+reg_tm1cnt_l	gba_specific_stuff/timer_stuff.hpp	11;"	kind:d
+reg_tm2cnt_h	gba_specific_stuff/timer_stuff.hpp	18;"	kind:d
+reg_tm2cnt_l	gba_specific_stuff/timer_stuff.hpp	12;"	kind:d
+reg_tm3cnt_h	gba_specific_stuff/timer_stuff.hpp	19;"	kind:d
+reg_tm3cnt_l	gba_specific_stuff/timer_stuff.hpp	13;"	kind:d
+reg_vcount	gba_specific_stuff/bg_reg_stuff.hpp	116;"	kind:d
+rgb15	gba_specific_stuff/bg_reg_stuff.hpp	/^inline u16 rgb15 ( u32 red, u32 green, u32 blue )$/;"	kind:f	signature:( u32 red, u32 green, u32 blue )
+right	misc_helper_stuff/coll_box_class.hpp	/^	inline fixed24p8 right () const$/;"	kind:f	class:coll_box	access:public	signature:() const
+round_to_int	misc_helper_stuff/fixed_classes.hpp	/^	inline s16 round_to_int () const;$/;"	kind:p	class:fixed8p8	access:public	signature:() const
+round_to_int	misc_helper_stuff/fixed_classes.hpp	/^	inline s32 round_to_int () const;$/;"	kind:p	class:fixed24p8	access:public	signature:() const
+round_to_int	misc_helper_stuff/fixed_classes.hpp	/^inline s16 fixed8p8::round_to_int () const$/;"	kind:f	class:fixed8p8	signature:() const
+round_to_int	misc_helper_stuff/fixed_classes.hpp	/^inline s32 fixed24p8::round_to_int () const$/;"	kind:f	class:fixed24p8	signature:() const
+s16	misc_helper_stuff/misc_types.hpp	/^typedef uint16_t u16; typedef int16_t s16;$/;"	kind:t
+s32	misc_helper_stuff/misc_types.hpp	/^typedef uint32_t u32; typedef int32_t s32;$/;"	kind:t
+s64	misc_helper_stuff/misc_types.hpp	/^typedef uint64_t u64; typedef int64_t s64;$/;"	kind:t
+s8	misc_helper_stuff/misc_types.hpp	/^typedef uint8_t u8; typedef int8_t s8;$/;"	kind:t
+scr_entry	gba_specific_stuff/bg_reg_stuff.hpp	/^typedef u16 scr_entry;$/;"	kind:t
+screen_height	gba_specific_stuff/bg_reg_stuff.hpp	/^static const u32 screen_height = 160;$/;"	kind:v
+screen_height_in_tiles	gba_specific_stuff/bg_reg_stuff.hpp	/^static const u32 screen_height_in_tiles = 20;$/;"	kind:v
+screen_size_2d	gba_specific_stuff/bg_reg_stuff.hpp	/^static const vec2_u32 screen_size_2d = { screen_width, screen_height };$/;"	kind:v
+screen_size_in_tiles_2d	gba_specific_stuff/bg_reg_stuff.hpp	/^static const vec2_u32 screen_size_in_tiles_2d = { screen_width_in_tiles, $/;"	kind:v
+screen_width	gba_specific_stuff/bg_reg_stuff.hpp	/^static const u32 screen_width = 240;$/;"	kind:v
+screen_width_in_tiles	gba_specific_stuff/bg_reg_stuff.hpp	/^static const u32 screen_width_in_tiles = 30;$/;"	kind:v
+screenblock	gba_specific_stuff/bg_reg_stuff.hpp	/^typedef scr_entry screenblock [screenblock_size];$/;"	kind:t
+screenblock_size	gba_specific_stuff/bg_reg_stuff.hpp	/^static constexpr u32 screenblock_size = 0x400;$/;"	kind:v
+screenblock_size_2d	gba_specific_stuff/bg_reg_stuff.hpp	/^static constexpr vec2_u32 screenblock_size_2d $/;"	kind:v
+screenblock_xsize	gba_specific_stuff/bg_reg_stuff.hpp	/^static constexpr u32 screenblock_xsize = 0x20, screenblock_ysize = 0x20;$/;"	kind:v
+screenblock_ysize	gba_specific_stuff/bg_reg_stuff.hpp	/^static constexpr u32 screenblock_xsize = 0x20, screenblock_ysize = 0x20;$/;"	kind:v
+se_flip_mask	gba_specific_stuff/bg_reg_stuff.hpp	85;"	kind:d
+se_hflip	gba_specific_stuff/bg_reg_stuff.hpp	83;"	kind:d
+se_id	gba_specific_stuff/bg_reg_stuff.hpp	78;"	kind:d
+se_id_mask	gba_specific_stuff/bg_reg_stuff.hpp	79;"	kind:d
+se_no_flip	gba_specific_stuff/bg_reg_stuff.hpp	82;"	kind:d
+se_palbank	gba_specific_stuff/bg_reg_stuff.hpp	88;"	kind:d
+se_palbank_mask	gba_specific_stuff/bg_reg_stuff.hpp	89;"	kind:d
+se_ram	gba_specific_stuff/bg_reg_stuff.hpp	69;"	kind:d
+se_vflip	gba_specific_stuff/bg_reg_stuff.hpp	84;"	kind:d
+set_bits	misc_helper_stuff/misc_bitwise_funcs.hpp	/^inline void set_bits ( type& to_set, u32 mask )$/;"	kind:f	signature:( type& to_set, u32 mask )
+set_shape_size	gba_specific_stuff/oam_entry_classes.hpp	/^	void set_shape_size ( shape_size n_shape_size );$/;"	kind:p	class:oam_entry	access:public	signature:( shape_size n_shape_size )
+set_shape_size	gba_specific_stuff/oam_entry_classes.thumb.cpp	/^void oam_entry::set_shape_size ( oam_entry::shape_size n_shape_size )$/;"	kind:f	class:oam_entry	signature:( oam_entry::shape_size n_shape_size )
+set_shape_size	gba_specific_stuff/sprite_class.hpp	/^	inline void set_shape_size ( oam_entry::shape_size n_shape_size )$/;"	kind:f	class:sprite	access:public	signature:( oam_entry::shape_size n_shape_size )
+set_shape_size_with_vec2	gba_specific_stuff/oam_entry_classes.hpp	/^	void set_shape_size_with_vec2 ( const vec2_u32& n_shape_size );$/;"	kind:p	class:oam_entry	access:public	signature:( const vec2_u32& n_shape_size )
+set_shape_size_with_vec2	gba_specific_stuff/oam_entry_classes.thumb.cpp	/^void oam_entry::set_shape_size_with_vec2 ( const vec2_u32& n_shape_size )$/;"	kind:f	class:oam_entry	signature:( const vec2_u32& n_shape_size )
+set_side_coords	misc_helper_stuff/coll_box_class.hpp	/^	void set_side_coords ( fixed24p8 left_x, fixed24p8 right_x,$/;"	kind:p	class:coll_box	access:public	signature:( fixed24p8 left_x, fixed24p8 right_x, fixed24p8 top_y, fixed24p8 bot_y )
+set_side_coords	misc_helper_stuff/coll_box_class.thumb.cpp	/^void coll_box::set_side_coords ( fixed24p8 left_x, fixed24p8 right_x,$/;"	kind:f	class:coll_box	signature:( fixed24p8 left_x, fixed24p8 right_x, fixed24p8 top_y, fixed24p8 bot_y )
+set_tile_number	gba_specific_stuff/oam_entry_classes.hpp	/^	inline void set_tile_number ( u32 n_tile )$/;"	kind:f	class:oam_entry	access:public	signature:( u32 n_tile )
+set_x_coord	gba_specific_stuff/oam_entry_classes.hpp	/^	void set_x_coord ( s32 n_x_coord )$/;"	kind:f	class:oam_entry	access:public	signature:( s32 n_x_coord )
+set_y_coord	gba_specific_stuff/oam_entry_classes.hpp	/^	void set_y_coord ( s32 n_y_coord )$/;"	kind:f	class:oam_entry	access:public	signature:( s32 n_y_coord )
+shape_size	gba_specific_stuff/oam_entry_classes.hpp	/^	enum shape_size { ss_8x8, ss_16x16, ss_32x32, ss_64x64, ss_16x8, $/;"	kind:g	class:oam_entry	access:public
+shift	misc_helper_stuff/fixed_classes.hpp	/^	static const u32 shift = 8;$/;"	kind:m	class:fixed24p8	access:public
+shift	misc_helper_stuff/fixed_classes.hpp	/^	static const u32 shift = 8;$/;"	kind:m	class:fixed8p8	access:public
+show_non_affine	gba_specific_stuff/oam_entry_classes.hpp	/^	inline void show_non_affine ()$/;"	kind:f	class:oam_entry	access:public	signature:()
+sin_table_size	misc_helper_stuff/trigonometry_funcs.hpp	/^static const u32 sin_table_size = 512;$/;"	kind:v
+size	misc_helper_stuff/array_2d_helper_class.hpp	/^	u32 size;$/;"	kind:m	class:array_2d_helper	access:protected
+size	misc_helper_stuff/array_helper_class.hpp	/^	u32 size;$/;"	kind:m	class:array_helper	access:protected
+size	misc_helper_stuff/coll_box_class.hpp	/^	vec2_f24p8 size;$/;"	kind:m	class:coll_box	access:public
+size_2d	misc_helper_stuff/array_2d_helper_class.hpp	/^	vec2_u32 size_2d;$/;"	kind:m	class:array_2d_helper	access:protected
+sound_fifo_disable	gba_specific_stuff/sound_reg_stuff.hpp	124;"	kind:d
+sound_fifo_enable	gba_specific_stuff/sound_reg_stuff.hpp	125;"	kind:d
+sound_reg_stuff_hpp	gba_specific_stuff/sound_reg_stuff.hpp	2;"	kind:d
+sprite	gba_specific_stuff/sprite_class.hpp	/^	sprite ();$/;"	kind:p	class:sprite	access:public	signature:()
+sprite	gba_specific_stuff/sprite_class.hpp	/^class sprite$/;"	kind:c
+sprite	gba_specific_stuff/sprite_class.thumb.cpp	/^sprite::sprite ()$/;"	kind:f	class:sprite	signature:()
+sprite::basic_collision_stuff	gba_specific_stuff/sprite_class.hpp	/^	virtual void basic_collision_stuff ();$/;"	kind:p	class:sprite	access:public	signature:()
+sprite::basic_collision_stuff	gba_specific_stuff/sprite_class.thumb.cpp	/^void sprite::basic_collision_stuff ()$/;"	kind:f	class:sprite	signature:()
+sprite::cb_pos_offset	gba_specific_stuff/sprite_class.hpp	/^	vec2_f24p8 cb_pos_offset;$/;"	kind:m	class:sprite	access:public
+sprite::copy_the_oam_entry_to_oam_mirror	gba_specific_stuff/sprite_class.hpp	/^	inline void copy_the_oam_entry_to_oam_mirror $/;"	kind:f	class:sprite	access:public	signature:( u32 slot_for_oam_mirror )
+sprite::get_shape_size	gba_specific_stuff/sprite_class.hpp	/^	inline oam_entry::shape_size get_shape_size () const$/;"	kind:f	class:sprite	access:public	signature:() const
+sprite::get_shape_size_as_vec2	gba_specific_stuff/sprite_class.hpp	/^	inline const vec2_u32& get_shape_size_as_vec2 () const$/;"	kind:f	class:sprite	access:public	signature:() const
+sprite::get_shape_size_as_vec2_raw	gba_specific_stuff/sprite_class.hpp	/^	vec2_u32 get_shape_size_as_vec2_raw () const;$/;"	kind:p	class:sprite	access:protected	signature:() const
+sprite::get_shape_size_as_vec2_raw	gba_specific_stuff/sprite_class.thumb.cpp	/^vec2_u32 sprite::get_shape_size_as_vec2_raw () const$/;"	kind:f	class:sprite	signature:() const
+sprite::in_level_pos	gba_specific_stuff/sprite_class.hpp	/^	vec2_f24p8 in_level_pos;$/;"	kind:m	class:sprite	access:public
+sprite::set_shape_size	gba_specific_stuff/sprite_class.hpp	/^	inline void set_shape_size ( oam_entry::shape_size n_shape_size )$/;"	kind:f	class:sprite	access:public	signature:( oam_entry::shape_size n_shape_size )
+sprite::sprite	gba_specific_stuff/sprite_class.hpp	/^	sprite ();$/;"	kind:p	class:sprite	access:public	signature:()
+sprite::sprite	gba_specific_stuff/sprite_class.thumb.cpp	/^sprite::sprite ()$/;"	kind:f	class:sprite	signature:()
+sprite::the_coll_box	gba_specific_stuff/sprite_class.hpp	/^	coll_box the_coll_box;$/;"	kind:m	class:sprite	access:public
+sprite::the_oam_entry	gba_specific_stuff/sprite_class.hpp	/^	oam_entry the_oam_entry;$/;"	kind:m	class:sprite	access:public
+sprite::the_shape_size	gba_specific_stuff/sprite_class.hpp	/^	oam_entry::shape_size the_shape_size;$/;"	kind:m	class:sprite	access:protected
+sprite::the_shape_size_vec2	gba_specific_stuff/sprite_class.hpp	/^	vec2_u32 the_shape_size_vec2;$/;"	kind:m	class:sprite	access:protected
+sprite::update_f24p8_positions	gba_specific_stuff/sprite_class.hpp	/^	inline void update_f24p8_positions ()$/;"	kind:f	class:sprite	access:public	signature:()
+sprite::update_full	gba_specific_stuff/sprite_class.hpp	/^	inline void update_full ( const bg_point& camera_pos )$/;"	kind:f	class:sprite	access:public	signature:( const bg_point& camera_pos )
+sprite::update_on_screen_pos	gba_specific_stuff/sprite_class.hpp	/^	void update_on_screen_pos ( const bg_point& camera_pos );$/;"	kind:p	class:sprite	access:public	signature:( const bg_point& camera_pos )
+sprite::update_on_screen_pos	gba_specific_stuff/sprite_class.thumb.cpp	/^void sprite::update_on_screen_pos ( const bg_point& camera_pos )$/;"	kind:f	class:sprite	signature:( const bg_point& camera_pos )
+sprite::vel	gba_specific_stuff/sprite_class.hpp	/^	vec2_f24p8 vel;$/;"	kind:m	class:sprite	access:public
+sprite_class_hpp	gba_specific_stuff/sprite_class.hpp	2;"	kind:d
+ss_16x16	gba_specific_stuff/oam_entry_classes.hpp	/^	enum shape_size { ss_8x8, ss_16x16, ss_32x32, ss_64x64, ss_16x8, $/;"	kind:e	enum:oam_entry::shape_size
+ss_16x32	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x8, ss_32x16, ss_64x32, ss_8x16, ss_8x32, ss_16x32, $/;"	kind:e	enum:oam_entry::shape_size
+ss_16x8	gba_specific_stuff/oam_entry_classes.hpp	/^	enum shape_size { ss_8x8, ss_16x16, ss_32x32, ss_64x64, ss_16x8, $/;"	kind:e	enum:oam_entry::shape_size
+ss_32x16	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x8, ss_32x16, ss_64x32, ss_8x16, ss_8x32, ss_16x32, $/;"	kind:e	enum:oam_entry::shape_size
+ss_32x32	gba_specific_stuff/oam_entry_classes.hpp	/^	enum shape_size { ss_8x8, ss_16x16, ss_32x32, ss_64x64, ss_16x8, $/;"	kind:e	enum:oam_entry::shape_size
+ss_32x64	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x64 };$/;"	kind:e	enum:oam_entry::shape_size
+ss_32x8	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x8, ss_32x16, ss_64x32, ss_8x16, ss_8x32, ss_16x32, $/;"	kind:e	enum:oam_entry::shape_size
+ss_64x32	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x8, ss_32x16, ss_64x32, ss_8x16, ss_8x32, ss_16x32, $/;"	kind:e	enum:oam_entry::shape_size
+ss_64x64	gba_specific_stuff/oam_entry_classes.hpp	/^	enum shape_size { ss_8x8, ss_16x16, ss_32x32, ss_64x64, ss_16x8, $/;"	kind:e	enum:oam_entry::shape_size
+ss_8x16	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x8, ss_32x16, ss_64x32, ss_8x16, ss_8x32, ss_16x32, $/;"	kind:e	enum:oam_entry::shape_size
+ss_8x32	gba_specific_stuff/oam_entry_classes.hpp	/^		ss_32x8, ss_32x16, ss_64x32, ss_8x16, ss_8x32, ss_16x32, $/;"	kind:e	enum:oam_entry::shape_size
+ss_8x8	gba_specific_stuff/oam_entry_classes.hpp	/^	enum shape_size { ss_8x8, ss_16x16, ss_32x32, ss_64x64, ss_16x8, $/;"	kind:e	enum:oam_entry::shape_size
+swi_call	gba_specific_stuff/bios_function_wrappers.hpp	109;"	kind:d
+swi_call	gba_specific_stuff/bios_function_wrappers.hpp	111;"	kind:d
+test_level_block_ids	test_level/test_level.thumb.cpp	/^const u32 test_level_block_ids [test_level_size]$/;"	kind:v
+test_level_block_ids_2d	test_level/test_level.thumb.cpp	/^array_2d_helper <const u32> test_level_block_ids_2d ( test_level_block_ids,$/;"	kind:p	file:	signature:( test_level_block_ids, test_level_size_2d )
+test_level_hpp	test_level/test_level.hpp	2;"	kind:d
+test_level_size	test_level/test_level.hpp	/^static constexpr u32 test_level_size = 0x800;$/;"	kind:v
+test_level_size_2d	test_level/test_level.hpp	/^static constexpr vec2_u32 test_level_size_2d $/;"	kind:v
+test_level_xsize	test_level/test_level.hpp	/^static constexpr u32 test_level_xsize = 0x40, test_level_ysize = 0x20;$/;"	kind:v
+test_level_ysize	test_level/test_level.hpp	/^static constexpr u32 test_level_xsize = 0x40, test_level_ysize = 0x20;$/;"	kind:v
+the_array	misc_helper_stuff/array_2d_helper_class.hpp	/^	type* the_array;$/;"	kind:m	class:array_2d_helper	access:public
+the_array	misc_helper_stuff/array_helper_class.hpp	/^	type* the_array;$/;"	kind:m	class:array_helper	access:public
+the_blocksPalLen	gfx/the_blocks.h	23;"	kind:d
+the_blocksTilesLen	gfx/the_blocks.h	20;"	kind:d
+the_coll_box	gba_specific_stuff/sprite_class.hpp	/^	coll_box the_coll_box;$/;"	kind:m	class:sprite	access:public
+the_oam_entry	gba_specific_stuff/sprite_class.hpp	/^	oam_entry the_oam_entry;$/;"	kind:m	class:sprite	access:public
+the_shape_size	gba_specific_stuff/sprite_class.hpp	/^	oam_entry::shape_size the_shape_size;$/;"	kind:m	class:sprite	access:protected
+the_shape_size_vec2	gba_specific_stuff/sprite_class.hpp	/^	vec2_u32 the_shape_size_vec2;$/;"	kind:m	class:sprite	access:protected
+the_spritesPalLen	gfx/the_sprites.h	23;"	kind:d
+the_spritesTilesLen	gfx/the_sprites.h	20;"	kind:d
+thing_thing_thing	main.thumb.cpp	/^int thing_thing_thing __attribute__ ((_iwram));$/;"	kind:v
+tile	gba_specific_stuff/bg_reg_stuff.hpp	/^struct tile$/;"	kind:s
+tile4	gba_specific_stuff/bg_reg_stuff.hpp	/^typedef tile tile4;$/;"	kind:t
+tile8	gba_specific_stuff/bg_reg_stuff.hpp	/^struct tile8$/;"	kind:s
+tile8::arrsize	gba_specific_stuff/bg_reg_stuff.hpp	/^	static const u32 arrsize = 16;$/;"	kind:m	struct:tile8	access:public
+tile8::data	gba_specific_stuff/bg_reg_stuff.hpp	/^	u32 data [arrsize];$/;"	kind:m	struct:tile8	access:public
+tile8_ram	gba_specific_stuff/bg_reg_stuff.hpp	35;"	kind:d
+tile::arrsize	gba_specific_stuff/bg_reg_stuff.hpp	/^	static const u32 arrsize = 8;$/;"	kind:m	struct:tile	access:public
+tile::data	gba_specific_stuff/bg_reg_stuff.hpp	/^	u32 data [arrsize];$/;"	kind:m	struct:tile	access:public
+tile_ram	gba_specific_stuff/bg_reg_stuff.hpp	34;"	kind:d
+timer_cascade_disable	gba_specific_stuff/timer_stuff.hpp	37;"	kind:d
+timer_cascade_enable	gba_specific_stuff/timer_stuff.hpp	38;"	kind:d
+timer_cascade_mask	gba_specific_stuff/timer_stuff.hpp	40;"	kind:d
+timer_irq_disable	gba_specific_stuff/timer_stuff.hpp	44;"	kind:d
+timer_irq_enable	gba_specific_stuff/timer_stuff.hpp	45;"	kind:d
+timer_irq_mask	gba_specific_stuff/timer_stuff.hpp	47;"	kind:d
+timer_operate	gba_specific_stuff/timer_stuff.hpp	52;"	kind:d
+timer_prescaler_1	gba_specific_stuff/timer_stuff.hpp	25;"	kind:d
+timer_prescaler_1024	gba_specific_stuff/timer_stuff.hpp	28;"	kind:d
+timer_prescaler_256	gba_specific_stuff/timer_stuff.hpp	27;"	kind:d
+timer_prescaler_64	gba_specific_stuff/timer_stuff.hpp	26;"	kind:d
+timer_prescaler_mask	gba_specific_stuff/timer_stuff.hpp	30;"	kind:d
+timer_stop	gba_specific_stuff/timer_stuff.hpp	51;"	kind:d
+timer_stop_operate_mask	gba_specific_stuff/timer_stuff.hpp	54;"	kind:d
+timer_stuff_hpp	gba_specific_stuff/timer_stuff.hpp	2;"	kind:d
+top	misc_helper_stuff/coll_box_class.hpp	/^	inline fixed24p8 top () const$/;"	kind:f	class:coll_box	access:public	signature:() const
+trig_lut_fixed_shift	misc_helper_stuff/trigonometry_funcs.hpp	/^static const u32 trig_lut_fixed_shift = 12;$/;"	kind:v
+trigonometry_funcs_hpp	misc_helper_stuff/trigonometry_funcs.hpp	2;"	kind:d
+trunc_to_int	misc_helper_stuff/fixed_classes.hpp	/^	inline s16 trunc_to_int () const;$/;"	kind:p	class:fixed8p8	access:public	signature:() const
+trunc_to_int	misc_helper_stuff/fixed_classes.hpp	/^	inline s32 trunc_to_int () const;$/;"	kind:p	class:fixed24p8	access:public	signature:() const
+trunc_to_int	misc_helper_stuff/fixed_classes.hpp	/^inline s16 fixed8p8::trunc_to_int () const$/;"	kind:f	class:fixed8p8	signature:() const
+trunc_to_int	misc_helper_stuff/fixed_classes.hpp	/^inline s32 fixed24p8::trunc_to_int () const$/;"	kind:f	class:fixed24p8	signature:() const
+type	gba_specific_stuff/block_stuff.hpp	/^	u16 type;$/;"	kind:m	class:block	access:public
+u16	misc_helper_stuff/misc_types.hpp	/^typedef uint16_t u16; typedef int16_t s16;$/;"	kind:t
+u32	misc_helper_stuff/misc_types.hpp	/^typedef uint32_t u32; typedef int32_t s32;$/;"	kind:t
+u64	misc_helper_stuff/misc_types.hpp	/^typedef uint64_t u64; typedef int64_t s64;$/;"	kind:t
+u8	misc_helper_stuff/misc_types.hpp	/^typedef uint8_t u8; typedef int8_t s8;$/;"	kind:t
+update_block_graphics_in_vram	gba_specific_stuff/block_stuff.hpp	/^void update_block_graphics_in_vram ( const unsigned short* the_tiles );$/;"	kind:p	signature:( const unsigned short* the_tiles )
+update_block_graphics_in_vram	gba_specific_stuff/block_stuff.thumb.cpp	/^void update_block_graphics_in_vram ( const unsigned short* the_tiles )$/;"	kind:f	signature:( const unsigned short* the_tiles )
+update_f24p8_positions	gba_specific_stuff/sprite_class.hpp	/^	inline void update_f24p8_positions ()$/;"	kind:f	class:sprite	access:public	signature:()
+update_full	gba_specific_stuff/sprite_class.hpp	/^	inline void update_full ( const bg_point& camera_pos )$/;"	kind:f	class:sprite	access:public	signature:( const bg_point& camera_pos )
+update_level_in_array_2d_helper	gba_specific_stuff/level_loader_class.arm.cpp	/^void update_level_in_array_2d_helper$/;"	kind:f	signature:( array_2d_helper <scr_entry>& the_array_2d_helper )
+update_level_in_array_2d_helper	gba_specific_stuff/level_loader_class.hpp	/^void update_level_in_array_2d_helper$/;"	kind:p	signature:( array_2d_helper <scr_entry>& the_array_2d_helper )
+update_on_screen_pos	gba_specific_stuff/sprite_class.hpp	/^	void update_on_screen_pos ( const bg_point& camera_pos );$/;"	kind:p	class:sprite	access:public	signature:( const bg_point& camera_pos )
+update_on_screen_pos	gba_specific_stuff/sprite_class.thumb.cpp	/^void sprite::update_on_screen_pos ( const bg_point& camera_pos )$/;"	kind:f	class:sprite	signature:( const bg_point& camera_pos )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	constexpr inline vec2 ( const fixed24p8& s_x, const fixed24p8& s_y )$/;"	kind:f	class:vec2	access:public	signature:( const fixed24p8& s_x, const fixed24p8& s_y )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	constexpr inline vec2 ( const fixed8p8& s_x, const fixed8p8& s_y )$/;"	kind:f	class:vec2	access:public	signature:( const fixed8p8& s_x, const fixed8p8& s_y )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	constexpr inline vec2 ( const type& s_x, const type& s_y )$/;"	kind:f	class:vec2	access:public	signature:( const type& s_x, const type& s_y )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	constexpr inline vec2 ( const vec2 <fixed24p8>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_copy )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	constexpr inline vec2 ( const vec2 <fixed8p8>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_copy )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	constexpr inline vec2 ( const vec2 <type>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_copy )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ( fixed24p8& s_x, fixed24p8& s_y )$/;"	kind:f	class:vec2	access:public	signature:( fixed24p8& s_x, fixed24p8& s_y )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ( fixed8p8& s_x, fixed8p8& s_y )$/;"	kind:f	class:vec2	access:public	signature:( fixed8p8& s_x, fixed8p8& s_y )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ( type& s_x, type& s_y )$/;"	kind:f	class:vec2	access:public	signature:( type& s_x, type& s_y )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ( vec2 <fixed24p8>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( vec2 <fixed24p8>& to_copy )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ( vec2 <fixed8p8>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( vec2 <fixed8p8>& to_copy )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ( vec2 <type>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( vec2 <type>& to_copy )
+vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ()$/;"	kind:f	class:vec2	access:public	signature:()
+vec2	misc_helper_stuff/vec2_class.hpp	/^class vec2 <fixed24p8> $/;"	kind:c
+vec2	misc_helper_stuff/vec2_class.hpp	/^class vec2 <fixed8p8> $/;"	kind:c
+vec2	misc_helper_stuff/vec2_class.hpp	/^class vec2$/;"	kind:c
+vec2::operator !=	misc_helper_stuff/vec2_class.hpp	/^	inline bool operator != ( const vec2 <fixed24p8>& to_cmp ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_cmp ) const
+vec2::operator !=	misc_helper_stuff/vec2_class.hpp	/^	inline bool operator != ( const vec2 <fixed8p8>& to_cmp ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_cmp ) const
+vec2::operator !=	misc_helper_stuff/vec2_class.hpp	/^	inline bool operator != ( const vec2 <type>& to_cmp ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_cmp ) const
+vec2::operator *	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <fixed24p8> operator * ( const fixed24p8& scale ) const$/;"	kind:f	class:vec2	access:public	signature:( const fixed24p8& scale ) const
+vec2::operator *	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <fixed8p8> operator * ( const fixed8p8& scale ) const$/;"	kind:f	class:vec2	access:public	signature:( const fixed8p8& scale ) const
+vec2::operator *	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <type> operator * ( const type& scale ) const$/;"	kind:f	class:vec2	access:public	signature:( const type& scale ) const
+vec2::operator *=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator *= ( const type& scale )$/;"	kind:f	class:vec2	access:public	signature:( const type& scale )
+vec2::operator +	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <fixed24p8> operator + ( const vec2 <fixed24p8>& to_add ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_add ) const
+vec2::operator +	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <fixed8p8> operator + ( const vec2 <fixed8p8>& to_add ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_add ) const
+vec2::operator +	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <type> operator + ( const vec2 <type>& to_add ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_add ) const
+vec2::operator +=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator += ( const vec2 <fixed24p8>& to_add )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_add )
+vec2::operator +=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator += ( const vec2 <fixed8p8>& to_add )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_add )
+vec2::operator +=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator += ( const vec2 <type>& to_add )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_add )
+vec2::operator -	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <fixed24p8> operator - ( const vec2 <fixed24p8>& to_sub ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_sub ) const
+vec2::operator -	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <fixed8p8> operator - ( const vec2 <fixed8p8>& to_sub ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_sub ) const
+vec2::operator -	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 <type> operator - ( const vec2 <type>& to_sub ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_sub ) const
+vec2::operator -=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator -= ( const vec2 <fixed24p8>& to_sub )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_sub )
+vec2::operator -=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator -= ( const vec2 <fixed8p8>& to_sub )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_sub )
+vec2::operator -=	misc_helper_stuff/vec2_class.hpp	/^	inline void operator -= ( const vec2 <type>& to_sub )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_sub )
+vec2::operator =	misc_helper_stuff/vec2_class.hpp	/^	inline void operator = ( const vec2 <fixed24p8>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_copy )
+vec2::operator =	misc_helper_stuff/vec2_class.hpp	/^	inline void operator = ( const vec2 <fixed8p8>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_copy )
+vec2::operator =	misc_helper_stuff/vec2_class.hpp	/^	inline void operator = ( const vec2 <type>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_copy )
+vec2::operator =	misc_helper_stuff/vec2_class.hpp	/^	inline void operator = ( const vec2_s16& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2_s16& to_copy )
+vec2::operator =	misc_helper_stuff/vec2_class.hpp	/^	inline void operator = ( const vec2_s32& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2_s32& to_copy )
+vec2::operator ==	misc_helper_stuff/vec2_class.hpp	/^	inline bool operator == ( const vec2 <fixed24p8>& to_cmp ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_cmp ) const
+vec2::operator ==	misc_helper_stuff/vec2_class.hpp	/^	inline bool operator == ( const vec2 <fixed8p8>& to_cmp ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_cmp ) const
+vec2::operator ==	misc_helper_stuff/vec2_class.hpp	/^	inline bool operator == ( const vec2 <type>& to_cmp ) const$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_cmp ) const
+vec2::operator vec2 <fixed24p8>	misc_helper_stuff/vec2_class.hpp	/^	inline operator vec2 <fixed24p8> () const;$/;"	kind:p	class:vec2	access:public	signature:() const
+vec2::operator vec2 <fixed24p8>	misc_helper_stuff/vec2_class.hpp	/^inline vec2 <fixed8p8>::operator vec2 <fixed24p8> () const$/;"	kind:f	class:vec2	signature:() const
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	constexpr inline vec2 ( const fixed24p8& s_x, const fixed24p8& s_y )$/;"	kind:f	class:vec2	access:public	signature:( const fixed24p8& s_x, const fixed24p8& s_y )
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	constexpr inline vec2 ( const fixed8p8& s_x, const fixed8p8& s_y )$/;"	kind:f	class:vec2	access:public	signature:( const fixed8p8& s_x, const fixed8p8& s_y )
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	constexpr inline vec2 ( const type& s_x, const type& s_y )$/;"	kind:f	class:vec2	access:public	signature:( const type& s_x, const type& s_y )
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	constexpr inline vec2 ( const vec2 <fixed24p8>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed24p8>& to_copy )
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	constexpr inline vec2 ( const vec2 <fixed8p8>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <fixed8p8>& to_copy )
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	constexpr inline vec2 ( const vec2 <type>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( const vec2 <type>& to_copy )
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ( fixed24p8& s_x, fixed24p8& s_y )$/;"	kind:f	class:vec2	access:public	signature:( fixed24p8& s_x, fixed24p8& s_y )
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ( fixed8p8& s_x, fixed8p8& s_y )$/;"	kind:f	class:vec2	access:public	signature:( fixed8p8& s_x, fixed8p8& s_y )
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ( type& s_x, type& s_y )$/;"	kind:f	class:vec2	access:public	signature:( type& s_x, type& s_y )
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ( vec2 <fixed24p8>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( vec2 <fixed24p8>& to_copy )
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ( vec2 <fixed8p8>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( vec2 <fixed8p8>& to_copy )
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ( vec2 <type>& to_copy )$/;"	kind:f	class:vec2	access:public	signature:( vec2 <type>& to_copy )
+vec2::vec2	misc_helper_stuff/vec2_class.hpp	/^	inline vec2 ()$/;"	kind:f	class:vec2	access:public	signature:()
+vec2::x	misc_helper_stuff/vec2_class.hpp	/^	fixed24p8 x, y;$/;"	kind:m	class:vec2	access:public
+vec2::x	misc_helper_stuff/vec2_class.hpp	/^	fixed8p8 x, y;$/;"	kind:m	class:vec2	access:public
+vec2::x	misc_helper_stuff/vec2_class.hpp	/^	type x, y;$/;"	kind:m	class:vec2	access:public
+vec2::y	misc_helper_stuff/vec2_class.hpp	/^	fixed24p8 x, y;$/;"	kind:m	class:vec2	access:public
+vec2::y	misc_helper_stuff/vec2_class.hpp	/^	fixed8p8 x, y;$/;"	kind:m	class:vec2	access:public
+vec2::y	misc_helper_stuff/vec2_class.hpp	/^	type x, y;$/;"	kind:m	class:vec2	access:public
+vec2_class_hpp	misc_helper_stuff/vec2_class.hpp	2;"	kind:d
+vec2_f24p8	misc_helper_stuff/vec2_class.hpp	/^typedef vec2 <fixed24p8> vec2_f24p8;$/;"	kind:t
+vec2_f8p8	misc_helper_stuff/vec2_class.hpp	/^typedef vec2 <fixed8p8> vec2_f8p8;$/;"	kind:t
+vec2_s16	misc_helper_stuff/vec2_class.hpp	/^typedef vec2 <u16> vec2_u16; typedef vec2 <s16> vec2_s16;$/;"	kind:t
+vec2_s32	misc_helper_stuff/vec2_class.hpp	/^typedef vec2 <u32> vec2_u32; typedef vec2 <s32> vec2_s32;$/;"	kind:t
+vec2_s64	misc_helper_stuff/vec2_class.hpp	/^typedef vec2 <u64> vec2_u64; typedef vec2 <s64> vec2_s64;$/;"	kind:t
+vec2_u16	misc_helper_stuff/vec2_class.hpp	/^typedef vec2 <u16> vec2_u16; typedef vec2 <s16> vec2_s16;$/;"	kind:t
+vec2_u32	misc_helper_stuff/vec2_class.hpp	/^typedef vec2 <u32> vec2_u32; typedef vec2 <s32> vec2_s32;$/;"	kind:t
+vec2_u64	misc_helper_stuff/vec2_class.hpp	/^typedef vec2 <u64> vec2_u64; typedef vec2 <s64> vec2_s64;$/;"	kind:t
+vel	gba_specific_stuff/sprite_class.hpp	/^	vec2_f24p8 vel;$/;"	kind:m	class:sprite	access:public
+vs16	misc_helper_stuff/misc_types.hpp	/^typedef volatile u16 vu16; typedef volatile s16 vs16;$/;"	kind:t
+vs32	misc_helper_stuff/misc_types.hpp	/^typedef volatile u32 vu32; typedef volatile s32 vs32;$/;"	kind:t
+vs64	misc_helper_stuff/misc_types.hpp	/^typedef volatile u64 vu64; typedef volatile s64 vs64;$/;"	kind:t
+vs8	misc_helper_stuff/misc_types.hpp	/^typedef volatile u8 vu8; typedef volatile s8 vs8;$/;"	kind:t
+vu16	misc_helper_stuff/misc_types.hpp	/^typedef volatile u16 vu16; typedef volatile s16 vs16;$/;"	kind:t
+vu32	misc_helper_stuff/misc_types.hpp	/^typedef volatile u32 vu32; typedef volatile s32 vs32;$/;"	kind:t
+vu64	misc_helper_stuff/misc_types.hpp	/^typedef volatile u64 vu64; typedef volatile s64 vs64;$/;"	kind:t
+vu8	misc_helper_stuff/misc_types.hpp	/^typedef volatile u8 vu8; typedef volatile s8 vs8;$/;"	kind:t
+width	misc_helper_stuff/array_2d_helper_class.hpp	/^	u32 width () const$/;"	kind:f	class:array_2d_helper	access:public	signature:() const
+wood_block_stuff	gba_specific_stuff/block_stuff.hpp	/^class wood_block_stuff : public block_base_stuff$/;"	kind:c	inherits:block_base_stuff
+wood_block_stuff::get_metatile_number	gba_specific_stuff/block_stuff.hpp	/^	virtual const u32 get_metatile_number () __attribute__ ((_iwram_code));$/;"	kind:p	class:wood_block_stuff	access:public	signature:()
+wood_block_stuff::get_metatile_number	gba_specific_stuff/block_stuff.thumb.cpp	/^const u32 wood_block_stuff::get_metatile_number ()$/;"	kind:f	class:wood_block_stuff	signature:()
+wood_block_stuff::metatile_number	gba_specific_stuff/block_stuff.hpp	/^	static const u32 metatile_number = 2;$/;"	kind:m	class:wood_block_stuff	access:public
+x	misc_helper_stuff/vec2_class.hpp	/^	fixed24p8 x, y;$/;"	kind:m	class:vec2	access:public
+x	misc_helper_stuff/vec2_class.hpp	/^	fixed8p8 x, y;$/;"	kind:m	class:vec2	access:public
+x	misc_helper_stuff/vec2_class.hpp	/^	type x, y;$/;"	kind:m	class:vec2	access:public
+y	misc_helper_stuff/vec2_class.hpp	/^	fixed24p8 x, y;$/;"	kind:m	class:vec2	access:public
+y	misc_helper_stuff/vec2_class.hpp	/^	fixed8p8 x, y;$/;"	kind:m	class:vec2	access:public
+y	misc_helper_stuff/vec2_class.hpp	/^	type x, y;$/;"	kind:m	class:vec2	access:public
