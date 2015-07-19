@@ -46,8 +46,6 @@ void sprite::update_on_screen_pos ( const bg_point& camera_pos )
 	}
 }
 
-extern int thing_thing_thing;
-
 void sprite::basic_collision_stuff ()
 {
 	// The collision points

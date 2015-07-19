@@ -36,8 +36,6 @@
 scr_entry bg0_screenblock_mirror [screenblock_size] 
 	__attribute__ ((_iwram));
 
-int thing_thing_thing __attribute__ ((_iwram));
-
 
 int main ()
 {

@@ -1016,7 +1016,6 @@ the_shape_size	gba_specific_stuff/sprite_class.hpp	/^	oam_entry::shape_size the_
 the_shape_size_vec2	gba_specific_stuff/sprite_class.hpp	/^	vec2_u32 the_shape_size_vec2;$/;"	kind:m	class:sprite	access:protected
 the_spritesPalLen	gfx/the_sprites.h	23;"	kind:d
 the_spritesTilesLen	gfx/the_sprites.h	20;"	kind:d
-thing_thing_thing	main.thumb.cpp	/^int thing_thing_thing __attribute__ ((_iwram));$/;"	kind:v
 tile	gba_specific_stuff/bg_reg_stuff.hpp	/^struct tile$/;"	kind:s
 tile4	gba_specific_stuff/bg_reg_stuff.hpp	/^typedef tile tile4;$/;"	kind:t
 tile8	gba_specific_stuff/bg_reg_stuff.hpp	/^struct tile8$/;"	kind:s
